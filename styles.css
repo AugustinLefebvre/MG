@@ -1,0 +1,263 @@
+/* general stuff */
+
+body {
+    color: #FFF;
+}
+
+a,h4 {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.d-flex {
+    justify-content: space-evenly;
+}
+
+.flex-row-reverse {
+    justify-content: unset;
+}
+
+.d-flex > * {
+    align-self: center;
+}
+
+.o-text {
+    color: #da5d13;
+    font-size: 18px;
+}
+
+.h-line {
+    height: 2px;
+    margin: 0;
+    background-color: #da5d13;
+    max-width: 500px;
+}
+
+.h-line-small {
+    height: 2px;
+    margin: 0 auto;
+    background-color: #da5d13;
+    max-width: 250px;
+}
+
+/* Navbar */
+.navbar-title {
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header {
+    background-color: #021630;
+}
+
+.menu-toggle {
+    margin-right: 20px;
+}
+
+.dropstart > .dropdown-menu[data-bs-popper] {
+    margin-right: 20px;
+    background-color: #021630;
+    border: 1px solid #FFF;
+}
+
+.dropstart > .dropdown-menu[data-bs-popper] a {
+    color: #FFF;
+}
+
+.dropstart > .dropdown-menu[data-bs-popper] a:hover {
+    color: #FFF;
+    background-color: #da5d13;
+}
+
+/* frontpage */
+.top-element {
+    background-image: url("./background.jpg");
+    background-attachment: fixed;
+    height: 80vh;
+    min-height: 600px;
+    max-width: 100%;
+    margin:0;
+    position: relative;
+}
+
+.contact-info {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;
+    min-height: 300px;
+    height: 100%;
+    /* margin: 150px 30px 0; */
+    padding: 150px 150px 0;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(2, 22, 48, 0.6);
+}
+
+.button-section-container {
+    margin: 50px 0;
+    top: 50%;
+    position: relative;
+}
+
+.section-button {
+    background-color:#021630;
+    border-top: 3px solid #da5d13;
+    border-radius: 3px;
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 200px;
+}
+
+.section-button h4 {
+    text-align: center;
+    /* font-size: 24px; */
+    font-weight: bold;
+}
+.section-button > span {
+    padding: 0 10px;
+    text-align: center;
+    color: #FFF;
+    font-size: 18px;
+}
+
+/* part certif  */
+.certifications {
+    background-color: darkgray;
+    padding: 10px 0;
+    min-height: 100px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.certif-icon {
+    max-height:80px;
+}
+
+/* part video */
+
+.who-am-i {
+    text-align: center;
+}
+
+.portrait {
+    max-width: 100%;
+}
+
+.video-section {
+    min-height: 600px;
+}
+
+.video-embed {
+    margin: 3% 5%;
+    height: 80%;
+    width:80%;
+    background-color: #000;
+}
+
+.video-left {
+    background-color: #021630;
+}
+
+.video-left, .other-desc {
+    padding: 50px;
+    font-size: 18px;
+}
+
+/* part reviews */
+
+.customer-reviews {
+    background-color: #021630;
+    border-top: 3px solid #da5d13;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+.customer-reviews .carousel-item {
+    min-height: 150px;
+    max-width: 80%;
+    margin: 20px 10%;
+}
+
+/* others  */
+.other-desc {
+    background-color: #021630;
+}
+
+.other-section {
+    min-height: 500px;
+    padding: 50px 0;
+    max-width: 100%;
+}
+
+.exp-section-content {
+    padding: 20px;
+    padding-left: 0;
+}
+
+.why-sidetext {
+    font-size: 28px;
+    padding: 40px;
+    text-align: center;
+}
+
+.stats-container {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-weight: bold;
+}
+
+.stats-title {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 50px 0 10px;
+}
+
+.foot-stats {
+    font-size: 14px;
+    margin: 40px 0 0;
+    font-weight: normal;
+}
+
+.desc-problem {
+    text-align: center;
+    align-items: center;
+}
+
+.desc-problem .o-text {
+    font-size: 24px;
+}
+
+.problem-soluce {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.service-display {
+    text-align: center;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.service-display > div {
+    padding: 0 30px;
+}
+
+.service-title {
+    text-align: left;
+    font-size: 24px;
+}
+
+.product-list {
+    padding: 40px 20px 40px 140px;
+    font-size: 28px;
+}
