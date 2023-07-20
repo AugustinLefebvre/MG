@@ -1,10 +1,4 @@
 /* general stuff */
-@media (max-width: 480px) {
-    .video-embed {
-        width: 460px;
-        margin: 20px 10px;;
-    }
-}
 body {
     color: #FFF;
 }
@@ -151,9 +145,10 @@ h3 {
 }
 
 .button-section-container {
-    margin: 100px 0 0;
+    margin: 100px 62px 0;
     top: 50%;
     position: relative;
+    display: flex;
 }
 
 .section-button {
@@ -163,6 +158,11 @@ h3 {
     min-width: 300px;
     max-width: 300px;
     min-height: 100px;
+    margin: auto;
+    /* display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+    flex-direction: column; */
 }
 
 .section-button h4 {
@@ -189,10 +189,21 @@ h3 {
     font-weight: bold;
     z-index: 2;
     position: relative;
+    max-width: 100%;
+}
+
+.certifications > div {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.certif-text {
+    text-align: center;
 }
 
 .certif-icon {
-    max-height:80px;
+    float: left;
+    max-height: 80px;
 }
 
 .cert-details {
@@ -213,7 +224,7 @@ h3 {
     padding: 30px 0;
 }
 
-.video-embed {
+.video-mg-pres {
     margin: 20px 11%;
     height: 480px;
     width:854px;
@@ -316,6 +327,7 @@ h3 {
 .illu-CGP {
     /* TODO  */
     max-height: 400px;
+    max-width: 100%;
 }
 
 /* Courtage */
@@ -326,7 +338,7 @@ h3 {
 .illu-courtage {
     max-height: 150px;
     margin: 0 auto;
-    /* float: right; */
+    max-width: 100%;
 }
 
 /* others  */
@@ -404,20 +416,88 @@ h3 {
 }
 
 /* media queries (to organise) */
+@media (max-width: 1024px) {
+    .fond {
+        display: none;
+    }
+
+    .top-element {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .contact-info {
+        width: 60%;
+        padding: 150px 20px 0;
+    }
+}
+
+/* ipad */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .button-section-container {
+        margin: 50px 0 0;
+    }
+}
+
+/* tablet */
+@media (max-width: 767px) and (min-width: 481px) {
+    .button-section-container {
+        margin: 0;
+    }
+
+    .section-button {
+        margin: 10px auto;
+    }
+    
+    .contact-info {
+        width: 80%;
+    }
+
+    .title-header {
+        display: block;
+    }
+
+    .one-line {
+        margin: 26px 0;
+    }
+}
 
 /* phone */
 @media (max-width: 480px) {
     .video-embed {
         width: 460px;
-        margin: 20px 10px;;
+        margin: 20px 10px;
+        max-width: 90%;
+    }
+
+    .button-section-container {
+        margin: 0;
+    }
+
+    .section-button {
+        margin: 10px auto;
+    }
+
+    .contact-info {
+        width: 100%;
+    }
+
+    .title-header {
+        display: block;
+    }
+
+    .dropdown > .menu-toggle {
+        position: fixed;
+        right: 10px;
+        top: 31px;
+    }
+
+    .one-line {
+        margin: 26px 0;
+    }
+
+    .two-lines {
+        margin: 11px 0;
     }
 }
 
-/* tablet */
-@media screen and (max-width: 767px) {
-    
-}
-/* ipad */
-@media screen and (max-width: 1024px) {
-    
-}
