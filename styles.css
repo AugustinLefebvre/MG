@@ -13,6 +13,14 @@ h4 {
     font-size: 24px;
 }
 
+h3 {
+    font-size: 28px;
+}
+/* 
+.colored-title {
+    color: #da5d13;
+} */
+
 .d-flex {
     justify-content: space-evenly;
 }
@@ -37,6 +45,19 @@ h4 {
     max-width: 500px;
 }
 
+/* TODO */
+.v-line-center {
+    width: 2px;
+    max-height: 90%;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+    background-color: #da5d13;
+    position: absolute;
+    left: 52%;
+}
+
 .h-line-small {
     height: 2px;
     margin: 0 auto;
@@ -53,6 +74,11 @@ h4 {
 
 .header {
     background-color: #021630;
+    position: fixed!important;
+    min-height: 90px;
+    width: 100%;
+    z-index: 999999;
+    border-bottom: #da5d13 2px solid;
 }
 
 .menu-toggle {
@@ -140,6 +166,9 @@ h4 {
     max-height:80px;
 }
 
+.cert-details {
+    margin: 0;
+}
 /* part video */
 
 .who-am-i {
@@ -151,13 +180,13 @@ h4 {
 }
 
 .video-section {
-    min-height: 600px;
+    min-height: 520px;
 }
 
 .video-embed {
-    margin: 3% 5%;
-    height: 80%;
-    width:80%;
+    margin: 20px 11%;
+    height: 480px;
+    width:854px;
     background-color: #000;
 }
 
@@ -186,6 +215,89 @@ h4 {
     min-height: 150px;
     max-width: 80%;
     margin: 20px 10%;
+}
+
+/* partie CGP */
+
+.video-embed-cgp, .video-embed-courting {
+    margin: 20px auto;
+    height: 405px;
+    width:720px;
+    background-color: #000;
+}
+
+.video-embed-cgp {
+    margin-left: 120px;
+}
+
+.CGP-desc h3 {
+    text-align: center;
+}
+.CGP-mission-text {
+    text-align: justify;
+    padding: 20px 40px;
+}
+.CGP-list {
+    padding-left: 20px;
+    list-style-type: "+";
+}
+
+.CGP-list > li {
+    padding-left: 5px;
+}
+
+.CGP-list > li::marker {
+    color: #da5d13;
+    font-weight: bolder;
+}
+
+.CGP-keywords {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-weight: bold;
+}
+
+.keyword-1 {
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+.keyword-2 {
+    padding-right: 20px;
+    padding-top: 30px;
+    text-align: right;
+}
+
+.keyword-3 {
+    padding: 25px;
+    text-align: center;
+}
+
+.keyword-4 {
+    padding-top: 20px;
+    padding-right: 40px;
+    text-align: right;
+}
+
+.keyword-5 {
+    padding-left: 40px;
+}
+
+.illu-CGP {
+    /* TODO  */
+    max-height: 400px;
+}
+
+/* Courtage */
+
+.video-embed-courting {
+    margin: auto 70px;
+}
+.illu-courtage {
+    max-height: 150px;
+    margin: 0 auto;
+    float: ;
+    /* float: right; */
 }
 
 /* others  */
