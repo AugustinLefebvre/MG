@@ -1,5 +1,10 @@
 /* general stuff */
-
+@media (max-width: 480px) {
+    .video-embed {
+        width: 460px;
+        margin: 20px 10px;;
+    }
+}
 body {
     color: #FFF;
 }
@@ -146,7 +151,7 @@ h3 {
 }
 
 .button-section-container {
-    margin: 50px 0;
+    margin: 100px 0 0;
     top: 50%;
     position: relative;
 }
@@ -396,4 +401,23 @@ h3 {
 .product-list {
     padding: 40px 20px 40px 140px;
     font-size: 28px;
+}
+
+/* media queries (to organise) */
+
+/* phone */
+@media (max-width: 480px) {
+    .video-embed {
+        width: 460px;
+        margin: 20px 10px;;
+    }
+}
+
+/* tablet */
+@media screen and (max-width: 767px) {
+    
+}
+/* ipad */
+@media screen and (max-width: 1024px) {
+    
 }
