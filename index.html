@@ -10,23 +10,27 @@
         <link href="./styles.css" rel="stylesheet"/>
         <script src="https://kit.fontawesome.com/2d01a6684a.js" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="./pageDisplay.js"></script>
     </head>
     <!-- début doc -->
     <body>
         <script>
             document.addEventListener("DOMContentLoaded", () => {
-                document.getElementById('mg-contact-info').append('mg.lefebvre@via-ap.com')
+                document.getElementById('mg-contact-info').append(atob('bWcubGVmZWJ2cmVAdmlhLWFwLmNvbQ'))
+                document.getElementById('mg-contact-info-wa').append('+44 7922 923090')
+                document.getElementById('mg-contact-info-tel').append('+33 6 02 08 51 32')
+                document.getElementById('mg-footer-info').append(atob('bWcubGVmZWJ2cmVAdmlhLWFwLmNvbQ'))
+                document.getElementById('mg-footer-info-wa1').append('+44 7922 923090')
+                document.getElementById('mg-footer-info-wa2').append('+44 7922 923090')
+                document.getElementById('mg-footer-info-tel').append('+33 6 02 08 51 32')
+
             });
-            function decryptEmail(code) {
-                var address = atob(code);
-                window.location.href = "mailto:" + address;
-            }
         </script>
         <!-- début nav bar -->
         <nav class="navbar navbar-expand-lg header">
             <div class="container-fluid">
                 <div class="navbar-nav me-auto">
-                    <a class="navbar-title" href="#">
+                    <a class="navbar-title" href="#top">
                         <span class="title-header-name">Marie-Gaëlle Lefebvre</span>
                         <span class="title-header"> <span class="d-none d-md-inline">-</span> Conseillère en Gestion de Patrimoine</span>
                     </a>
@@ -51,15 +55,15 @@
         <!-- fin nav bar  -->
         <!-- début homepage  -->
         <!-- ??????????????????????????? why???????????? -->
-        <div class="top-element container">.
+        <div class="top-element container" id="top">.
             <div class="fond"></div>
             <div class="contact-info">
-                <h4>Marie-Gaëlle Lefebvre </h4>
-                Mobile: <a href="#">+33 6 02 08 51 32 ou +44 7922 923090</a>
+                <a href="#contact"><h4>Contact </h4></a>
+                <i class="fa-solid fa-phone"></i>  <a id="mg-contact-info-tel" href="javascript:decryptContact('KzMzNjAyMDg1MTMy', 'tel:')" target="_blank"></a>
                 <br/>
-                WhatsApp: +44 7922 923090
+                <i class="fa-brands fa-whatsapp"></i>  <a id="mg-contact-info-wa" href="javascript:decryptContact('NDQ3OTIyOTIzMDkwIA', 'https://wa.me/')" target="_blank"></a>
                 <br/>
-                Email: <a id="mg-contact-info" href="javascript:decryptEmail('bWcubGVmZWJ2cmVAdmlhLWFwLmNvbQ')"></a>
+                <i class="fa-solid fa-at"></i>  <a id="mg-contact-info" href="javascript:decryptContact('bWcubGVmZWJ2cmVAdmlhLWFwLmNvbQ', 'mailto:')"></a>
             </div>    
 
             <div class="button-section-container row">
@@ -93,8 +97,6 @@
                 <div class="col-12">
                     <h4 class="who-am-i">Qui suis-je?</h4>
                     <div class="h-line-small"></div>
-                </div>
-                <div>
                     Nous avons tous des rêves, notre vie est guidée par cette quête. 
                     Le facteur principalement cité dans la réalisation du rêve est l’argent. 
                     Pas forcément son manque mais la stratégie financière pour l’atteindre.
@@ -132,7 +134,7 @@
             <div class="customer-review-container col-lg-2 col-md-4 col-sm-6">
                 <div class="review-text">
                     <blockquote class="review-content">
-                        <span>
+                        <a>
                             Je tiens à recommander vivement Marie-Gaëlle 
                             pour ses compétences en gestion de patrimoine. En tant que freelance, 
                             elle m'a apporté une assistance que je ne trouvais pas ailleurs, 
@@ -141,7 +143,7 @@
                             de mes projets et de mon appétit au risque. Elle est extrêmement disponible 
                             et propose une gamme de projets variés. Je vous recommande vivement ses services. 
                             On en redemande toujours plus :)
-                        </span>
+                        </a>
                     </blockquote>
                 </div>
                 <span class="review-author o-text">Louis G.</span>
@@ -151,10 +153,10 @@
             <div class="customer-review-container col-lg-2 col-md-4 col-sm-6">
                 <div class="review-text">
                     <blockquote class="review-content">
-                        <span>
+                        <a>
                             I highly recommend Marie-Gaelle, she has been very helpful to setup my mortgage payment 
                             and guide me through all the required steps along the way.
-                        </span>
+                        </a>
                     </blockquote>
                 </div>
                 <span class="review-author o-text">Sylvestre C.</span>
@@ -164,12 +166,12 @@
             <div class="customer-review-container col-lg-2 col-md-4 col-sm-6">
                 <div class="review-text">
                     <blockquote class="review-content">
-                        <span>
+                        <a>
                             Madame Lefebvre nous a été recommandée dans le cadre d’une recherche de 
                             prêt immobilier alors que nous étions non résident fiscal français. 
                             Elle a été très réactive et nous a prodigué de nombreux conseils. 
                             Je la recommande pour son grand professionnalisme.
-                        </span>
+                        </a>
                     </blockquote>
                 </div>
                 <span class="review-author o-text">Cyril N.</span>
@@ -179,13 +181,13 @@
             <div class="customer-review-container col-lg-2 col-md-4 col-sm-6 d-none d-sm-block">
                 <div class="review-text">
                     <blockquote class="review-content">
-                        <span>
+                        <a>
                             Ce fut un plaisir d’avoir fait appel aux services et expertises de Marie-Gaëlle! <br/>
                             Elle est proactive, réactive et toujours enclin à faire le maximum. 
                             Une attitude très professionnelle et 
                             elle a su me mettre en confiance très rapidement. <br/>
                             Je referai pour sur appel à ses services dans le future.
-                        </span>
+                        </a>
                     </blockquote>
                 </div>
                 <span class="review-author o-text">Hélène F.</span>
@@ -195,11 +197,11 @@
             <div class="customer-review-container col-lg-2 col-md-4 col-sm-6 d-none d-md-block">
                 <div class="review-text">
                     <blockquote class="review-content">
-                        <span>
+                        <a>
                             J’ai eu l’occasion de travailler avec Marie-Gaëlle à plusieurs reprises. 
                             Toujours très pro. Sa détermination et son expertise ont été 
                             un vrai atout pour la réussite de mes projets
-                        </span>
+                        </a>
                     </blockquote>
                 </div>
                 <span class="review-author o-text">Francois-Xavier R.</span>
@@ -209,7 +211,7 @@
             <div class="customer-review-container col-lg-2 col-md-4 col-sm-6 d-none d-md-block">
                 <div class="review-text">
                     <blockquote class="review-content">
-                        <span>
+                        <a>
                             Marie-Gaëlle was instrumental in our successful purchase of a rental flat in France. 
                             She explained the process from start to finish in non-technical 
                             language and was always incredibly helpful. 
@@ -219,7 +221,7 @@
                             where she is less directly involved. She is able to help both 
                             French and English speakers and I wouldn’t hesitate to recommend 
                             Marie-Gaëlle to any prospective client.
-                        </span>
+                        </a>
                     </blockquote>
                 </div>
                 <span class="review-author o-text">Paul S.</span>
@@ -235,7 +237,7 @@
             </div>
             <div id="section-CGP-1" class="other-section CGP-desc row gx-0">
                 <div class="col-lg-6 col-md-12 CGP-mission-text other-desc">
-                    <h4 class="">Conseil en Gestion de Patrimoine</h4>
+                    <h4 class="CGP-title">Conseil en Gestion de Patrimoine</h4>
                     <div class="h-line"></div>
                     <br/>
                     Que vous habitiez en France ou à l’étranger, ma mission est de
@@ -444,7 +446,35 @@
         </div> -->
         <!-- fin sections -->
         <div class="footer row">
-
+            <div class="footer-contact col-lg-6 col-md-12">
+                <h5>Contacter Marie-Gaëlle Lefebvre - Conseillère en Gestion de Patrimoine</h5>
+                <ul id="contact" class="contact-list">
+                    <li>
+                        <a id="mg-footer-info-tel" href="javascript:decryptContact('KzMzNjAyMDg1MTMy', 'tel:')">
+                            <i class="fa-solid fa-phone"></i>
+                             Téléphone: 
+                        </a>
+                         ou 
+                        <a id="mg-footer-info-wa1" href="javascript:decryptContact('NDQ3OTIyOTIzMDkwIA', 'tel:+')"></a>
+                    </li>
+                    <li>
+                        <a id="mg-footer-info-wa2" href="javascript:decryptContact('NDQ3OTIyOTIzMDkwIA', 'https://wa.me/')" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i> Whatsapp: 
+                        </a>
+                    </li>
+                    <li>
+                        <a id="mg-footer-info" href="javascript:decryptContact('bWcubGVmZWJ2cmVAdmlhLWFwLmNvbQ', 'mailto:')"><i class="fa-solid fa-at"></i>
+                             Email: 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/marie-ga%C3%ABlle-lefebvre-50b98a6a/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <a class="legal-info-link" href="./legalnotice.html">Mentions Légales</a>
+            </div>
         </div>
     </body>
 </html>

@@ -59,7 +59,7 @@ h3 {
 
 .h-line-small {
     height: 2px;
-    margin: 0 auto;
+    margin: 0 auto 15px;
     background-color: #da5d13;
     max-width: 250px;
 }
@@ -144,6 +144,14 @@ h3 {
     background-color: rgba(2, 22, 48, 0.7);
 }
 
+.contact-info h4 {
+    font-weight: bold;
+}
+
+.fa-whatsapp {
+    width: 18px;
+}
+
 .button-section-container {
     margin: 100px 5% 0;
     top: 50%;
@@ -212,6 +220,7 @@ h3 {
 
 .who-am-i {
     text-align: center;
+    /* padding-bottom: 10px; */
 }
 
 .portrait {
@@ -281,7 +290,7 @@ h3 {
 }
 
 /* Ellipsis with quotes */
-.review-content > span {
+.review-content > a {
     position: relative;
     max-width: 240px;
 	max-height: 168px;
@@ -290,9 +299,10 @@ h3 {
 	display: -webkit-box;
 	-webkit-line-clamp: 7;
 	text-overflow: ellipsis;
+    font-style: italic
 }
 
-.review-content::before {
+/* .review-content::before {
     position: absolute;
     display: inline-block;
     top: 0;
@@ -306,7 +316,7 @@ h3 {
     bottom: 0;
     right: 0;
     content: '\201D';
-}
+} */
 /* end of quotes */
 
 .review-author {
@@ -330,9 +340,6 @@ h3 {
     margin-left: 120px;
 }
 
-.CGP-desc h3 {
-    text-align: center;
-}
 .CGP-mission-text {
     text-align: justify;
     padding: 20px 40px;
@@ -448,9 +455,11 @@ h3 {
 
 .desc-problem .o-text {
     font-size: 24px;
+    padding-bottom: 10px;
 }
 
 .problem-soluce {
+    padding-top: 10px;
     font-size: 24px;
     font-weight: bold;
 }
@@ -475,7 +484,22 @@ h3 {
     font-size: 28px;
 }
 
+.footer {
+    background-color: #021630;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+}
 
+.legal-info-link {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.contact-list li {
+    padding-top: 10px;
+}
 @media (min-width: 1024px) {
     .video-embed {
         width: 720px;
@@ -496,6 +520,10 @@ h3 {
     }
 }
 
+.legal-info {
+    color:#000;
+}
+
 /* media queries (to organise) */
 @media (max-width: 1024px) {
     .fond {
@@ -510,6 +538,10 @@ h3 {
     .contact-info {
         width: 60%;
         padding: 150px 20px 0;
+    }
+
+    .CGP-title {
+        text-align: center;
     }
 }
 
@@ -558,7 +590,12 @@ h3 {
 
     .title-header {
         display: block;
+        font-size: 16px;
     }
+
+    .title-header-name {
+        font-size: 18px;
+    }    
 
     .certifications {
         font-size: 16px;
@@ -606,15 +643,19 @@ h3 {
 
     .title-header {
         display: block;
-        font-size: 16px;
+        font-size: 13px;
         line-height: 20px;
         padding-bottom: 5px;
     }
 
+    .title-header-name {
+        font-size: 16px;
+    }    
+
     .dropdown > .menu-toggle {
         position: fixed;
         right: 10px;
-        top: 26px;
+        top: 20px;
     }
 
     .certifications {
