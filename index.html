@@ -13,13 +13,22 @@
     </head>
     <!-- début doc -->
     <body>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                document.getElementById('mg-contact-info').append('mg.lefebvre@via-ap.com')
+            });
+            function decryptEmail(code) {
+                var address = atob(code);
+                window.location.href = "mailto:" + address;
+            }
+        </script>
         <!-- début nav bar -->
         <nav class="navbar navbar-expand-lg header">
             <div class="container-fluid">
                 <div class="navbar-nav me-auto">
                     <a class="navbar-title" href="#">
                         <span class="title-header-name">Marie-Gaëlle Lefebvre</span>
-                        <span class="title-header"> - Conseillère en Gestion de Patrimoine</span>
+                        <span class="title-header"> <span class="d-none d-md-inline">-</span> Conseillère en Gestion de Patrimoine</span>
                     </a>
                 </div>
                 <ul class="navbar-nav mb-2 mb-lg-0">
@@ -50,12 +59,12 @@
                 <br/>
                 WhatsApp: +44 7922 923090
                 <br/>
-                Email: <a href="#">mg.lefebvre@via-ap.com</a>
+                Email: <a id="mg-contact-info" href="javascript:decryptEmail('bWcubGVmZWJ2cmVAdmlhLWFwLmNvbQ')"></a>
             </div>    
 
             <div class="button-section-container row">
                 <a href="#section-CGP-1" class="section-button col-4">
-                    <h4 class="o-text">Conseillère en Gestion de Patrimoine</h4>
+                    <h4 class="o-text two-liner">Conseillère en Gestion de Patrimoine</h4>
                 </a>
                 <a href="#section-courtage-1" class="section-button col-4">
                     <h4 class="o-text">Courtière en financement</h4>
@@ -68,14 +77,13 @@
         <!-- fin homepage -->
         <!-- début certifs  -->
         <div id="certif" class="certifications row">
-            <div class="col-md-12 col-lg-6">
+            <div class="col-sm-12 col-lg-6">
                 <img class="certif-icon" src="./assets/logocertif.png" alt="img certif master GdP"/>
                 <div class="certif-text one-line">Master en Gestion de Patrimoine</div>
             </div>
-            <div class="col-md-12 col-lg-6">
+            <div class="col-sm-12 col-lg-6">
                 <img class="certif-icon" src="./assets/logocertif.png" alt="img certif AMF"/>
                 <div class="certif-text two-lines">Certification AMF<br/>(Autorité des Marchés Financiers)</div>
-                <!-- <span>Certification AMF<br/><p class="cert-details">(Autorité des Marchés Financiers)</p></span> -->
             </div>
         </div>
         <!-- fin certifs  -->
@@ -136,7 +144,7 @@
                         </span>
                     </blockquote>
                 </div>
-                <span class="review-author o-text">anonymous person</span>
+                <span class="review-author o-text">Louis G.</span>
                 <br/>
                 <span class="review-source">via LinkedIn</span>
             </div>
@@ -149,7 +157,7 @@
                         </span>
                     </blockquote>
                 </div>
-                <span class="review-author o-text">anonymous person</span>
+                <span class="review-author o-text">Sylvestre C.</span>
                 <br/>
                 <span class="review-source">via LinkedIn</span>
             </div>
@@ -164,7 +172,7 @@
                         </span>
                     </blockquote>
                 </div>
-                <span class="review-author o-text">anonymous person</span>
+                <span class="review-author o-text">Cyril N.</span>
                 <br/>
                 <span class="review-source">via LinkedIn</span>
             </div>
@@ -180,7 +188,7 @@
                         </span>
                     </blockquote>
                 </div>
-                <span class="review-author o-text">anonymous person</span>
+                <span class="review-author o-text">Hélène F.</span>
                 <br/>
                 <span class="review-source">via LinkedIn</span>
             </div>
@@ -194,7 +202,7 @@
                         </span>
                     </blockquote>
                 </div>
-                <span class="review-author o-text">anonymous person</span>
+                <span class="review-author o-text">Francois-Xavier R.</span>
                 <br/>
                 <span class="review-source">via LinkedIn</span>
             </div>
@@ -214,7 +222,7 @@
                         </span>
                     </blockquote>
                 </div>
-                <span class="review-author o-text">anonymous person</span>
+                <span class="review-author o-text">Paul S.</span>
                 <br/>
                 <span class="review-source">via LinkedIn</span>
             </div>
