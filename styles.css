@@ -66,7 +66,7 @@ h3 {
 
 /* Navbar */
 .navbar-title {
-    padding: 10px 0;
+    padding: 10px;
     font-size: 18px;
     font-weight: bold;
 }
@@ -78,6 +78,31 @@ h3 {
     width: 100%;
     z-index: 999999;
     border-bottom: #da5d13 2px solid;
+    color: #FFF;
+}
+
+.nav-link {
+    color: #FFF;
+    padding-left: 20px;
+}
+
+.nav-link:hover {
+    color: #FFF;
+}
+
+.navbar-toggler {
+    margin-right: 20px;
+    border-color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.85%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-list-container {
+    justify-content: end;
+    padding-right: 10px;
 }
 
 .title-header-name {
@@ -518,6 +543,10 @@ h3 {
     .contact-info {
         width: 40%;
     }
+
+    #nav-list .nav-link {
+        padding-right: 20px;
+    }
 }
 
 .legal-info {
@@ -542,6 +571,19 @@ h3 {
 
     .CGP-title {
         text-align: center;
+    }
+
+    .desc-problem .o-text {
+        font-size: 18px;
+    }
+
+    .stats-container {
+        padding-top: 0;
+    }
+
+    /* specific rule to reduce the space between scientia and the stats */
+    #section-coaching-1 {
+        padding-bottom: 0;
     }
 }
 
@@ -602,9 +644,13 @@ h3 {
         padding: 0;
     }
 
+    .certifications > div {
+        max-height: 70px;
+    }
+
     .certif-icon {
         max-height: 50px;
-        margin-top: 15px;
+        margin-top: 10px;
     }
 
     .customer-review-container {
@@ -638,7 +684,7 @@ h3 {
     }
 
     .navbar-title {
-        padding: 0;
+        padding: 0 10px;
     }
 
     .title-header {
@@ -663,9 +709,13 @@ h3 {
         padding: 0;
     }
 
+    .certifications > div {
+        max-height: 70px;
+    }
+
     .certif-icon {
         max-height: 50px;
-        margin-top: 15px;
+        margin-top: 10px;
     }
 
     .customer-review-container {
