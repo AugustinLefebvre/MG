@@ -37,6 +37,10 @@ h3 {
     font-size: 18px;
 }
 
+.j-text {
+    text-align: justify;
+}
+
 .h-line {
     height: 2px;
     margin: 0;
@@ -287,16 +291,16 @@ h3 {
 .customer-reviews {
     background-color: #021630;
     border-top: 3px solid #da5d13;
-    text-align: center;
-    position: relative;
+    margin: 0;
     margin-top: 10px;
     max-width: 100%;
-    margin: 0;
+    position: relative;
+    text-align: center;
 }
 
 .customer-review-container {
-    padding: 10px 40px;
     max-height: 100%;
+    padding: 10px 40px;
 }
 
 .review-author, .review-source {
@@ -306,21 +310,22 @@ h3 {
 }
 
 .review-content {
-    max-width: 100%;
-    position: relative;
-    display: inline-block;
-    padding: 0 5px;
+    display: flex;
     margin: 15px 0;
+    max-width: 100%;
+    padding: 0 5px;
+    position: relative;
 }
 
 /* Ellipsis with quotes */
 .review-content > a {
-    position: relative;
+    display: -webkit-box;
+    max-height: 168px;
     max-width: 240px;
-	max-height: 168px;
-	overflow: hidden;
+    min-height: 0;
+    overflow: hidden;
+    position: relative;
 	-webkit-box-orient: vertical;
-	display: -webkit-box;
 	-webkit-line-clamp: 7;
 	text-overflow: ellipsis;
     font-style: italic
@@ -447,6 +452,14 @@ h3 {
     text-align: center;
 }
 
+.scient-top {
+    margin-top: 85px;
+}
+
+.scient-bottom {
+    margin-bottom: 85px;
+}
+
 .stats-container {
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.4);
@@ -468,11 +481,6 @@ h3 {
 .desc-problem {
     text-align: center;
     align-items: center;
-}
-
-.desc-problem .o-text {
-    font-size: 24px;
-    padding-bottom: 10px;
 }
 
 .problem-soluce {
@@ -596,10 +604,6 @@ h3 {
         text-align: center;
     }
 
-    .desc-problem .o-text {
-        font-size: 18px;
-    }
-
     .stats-container {
         padding-top: 0;
     }
@@ -609,6 +613,10 @@ h3 {
     & the keywords & the CGP video */
     #section-coaching-1, #section-courtage-1, #section-CGP-1 {
         padding-bottom: 0;
+    }
+
+    .desc-problem .o-text {
+        padding-bottom: 20px;
     }
 }
 
