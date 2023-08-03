@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Marie-Gaëlle Lefebvre</title>
+        <link rel="icon" type="image/x-icon" href="./assets/icon.png">
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="Conseil, Gestion de patrimoine, Coaching financier, Courtage, Courtier, finance">
@@ -10,22 +11,11 @@
         <link href="./styles.css" rel="stylesheet"/>
         <script src="https://kit.fontawesome.com/2d01a6684a.js" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="./jquery-3.7.0.min.js"></script>
         <script type="text/javascript" src="./pageDisplay.js"></script>
     </head>
     <!-- début doc -->
     <body>
-        <script>
-            document.addEventListener("DOMContentLoaded", () => {
-                document.getElementById('mg-contact-info').append(atob('bWcubGVmZWJ2cmVAdmlhLWFwLmNvbQ'));
-                document.getElementById('mg-contact-info-wa').append(atob('KzQ0IDc5MjIgOTIzMDkw'));
-                document.getElementById('mg-contact-info-tel').append(atob('KzMzIDYgMDIgMDggNTEgMzI'));
-                document.getElementById('mg-footer-info').append(atob('bWcubGVmZWJ2cmVAdmlhLWFwLmNvbQ'));
-                document.getElementById('mg-footer-info-wa1').append(atob('KzQ0IDc5MjIgOTIzMDkw'));
-                document.getElementById('mg-footer-info-wa2').append(atob('KzQ0IDc5MjIgOTIzMDkw'));
-                document.getElementById('mg-footer-info-tel').append(atob('KzMzIDYgMDIgMDggNTEgMzI'));
-
-            });
-        </script>
         <!-- début nav bar -->
         <nav class="navbar header navbar-expand-xxl">
             <div class="navbar-nav">
@@ -39,16 +29,16 @@
             </button>
             <div class="collapse navbar-collapse nav-list-container" id="nav-list">
                 <ul class="navbar-nav">
-                    <li><a class="nav-link" href="#certif">Qui suis-je?</a></li>
-                    <li><a class="nav-link" href="#section-CGP-1">Gestion de Patrimoine</a></li>
-                    <li><a class="nav-link" href="#section-courtage-1">Courtage</a></li>
-                    <li><a class="nav-link" href="#section-coaching-1">Coaching Financier</a></li>
+                    <li><a class="nav-link" href="#certif"><span data-bs-toggle="collapse" data-bs-target="#nav-list">Qui suis-je?</span></a></li>
+                    <li><a class="nav-link" href="#section-CGP-1"><span data-bs-toggle="collapse" data-bs-target="#nav-list">Gestion de Patrimoine</span></a></li>
+                    <li><a class="nav-link" href="#section-courtage-1"><span data-bs-toggle="collapse" data-bs-target="#nav-list">Courtage</span></a></li>
+                    <li><a class="nav-link" href="#section-coaching-1"><span data-bs-toggle="collapse" data-bs-target="#nav-list">Coaching Financier</span></a></li>
                 </ul>
             </div>
         </nav>
         <!-- fin nav bar  -->
         <!-- début homepage  -->
-        <!-- ??????????????????????????? why???????????? -->
+        <!-- ? -->
         <div class="top-element container" id="top">.
             <div class="fond"></div>
             <div class="contact-info">
@@ -125,7 +115,7 @@
         <!-- début avis clients  -->
         <!-- à changer en statique vertical -->
         <div id="customer-reviews" class="customer-reviews row">
-            <div class="customer-review-container col-lg-2 col-md-4 col-sm-6">
+            <div class="customer-review-container col-xl-2 col-md-4 col-sm-6 col-xs-12">
                 <div class="review-text">
                     <blockquote class="review-content">
                         <a>
@@ -144,7 +134,7 @@
                 <br/>
                 <span class="review-source">via LinkedIn</span>
             </div>
-            <div class="customer-review-container col-lg-2 col-md-4 col-sm-6">
+            <div class="customer-review-container col-xl-2 col-md-4 col-sm-6 col-xs-12">
                 <div class="review-text">
                     <blockquote class="review-content">
                         <a>
@@ -157,7 +147,7 @@
                 <br/>
                 <span class="review-source">via LinkedIn</span>
             </div>
-            <div class="customer-review-container col-lg-2 col-md-4 col-sm-6">
+            <div class="customer-review-container col-xl-2 col-md-4 col-sm-6 col-xs-12">
                 <div class="review-text">
                     <blockquote class="review-content">
                         <a>
@@ -172,7 +162,7 @@
                 <br/>
                 <span class="review-source">via LinkedIn</span>
             </div>
-            <div class="customer-review-container col-lg-2 col-md-4 col-sm-6 d-none d-sm-block">
+            <div class="customer-review-container col-xl-2 col-md-4 col-sm-6 d-none d-sm-block">
                 <div class="review-text">
                     <blockquote class="review-content">
                         <a>
@@ -188,7 +178,7 @@
                 <br/>
                 <span class="review-source">via LinkedIn</span>
             </div>
-            <div class="customer-review-container col-lg-2 col-md-4 col-sm-6 d-none d-md-block">
+            <div class="customer-review-container col-xl-2 col-md-4 col-sm-6 d-none d-md-block">
                 <div class="review-text">
                     <blockquote class="review-content">
                         <a>
@@ -202,7 +192,7 @@
                 <br/>
                 <span class="review-source">via LinkedIn</span>
             </div>
-            <div class="customer-review-container col-lg-2 col-md-4 col-sm-6 d-none d-md-block">
+            <div class="customer-review-container col-xl-2 col-md-4 col-sm-6 d-none d-md-block">
                 <div class="review-text">
                     <blockquote class="review-content">
                         <a>
@@ -272,19 +262,21 @@
                     <div class="h-line"></div>
                     <br/>
                 </div> -->
-                <div class="CGP-perso-text col-lg-7 col-md-12">
-                    <span class="o-text">Moi-même domiciliée à l’international, 
-                    je connais intimement les spécificités de la vie des non-résidents et des expatriés. </span>
-                    <br/>
-                    <br/>
-                    Mon métier est de prendre en compte vos spécificités et 
-                    contraintes personnelles juridiques et fiscales propres à votre statut d’expatrié, 
-                    afin de vous accompagner dans la réalisation de tous vos objectifs patrimoniaux 
-                    par la mise en place de stratégies sur-mesure 
-                    et la sélection en toute indépendance des meilleurs investissements pour les atteindre. 
+                <div class="CGP-perso-text col-xl-7 col-lg-12 row">
+                    <div class="col-12 o-text">
+                        Moi-même domiciliée à l’international, 
+                        je connais intimement les spécificités de la vie des non-résidents et des expatriés. 
+                    </div>
+                    <div class="col-12">
+                        Mon métier est de prendre en compte vos spécificités et 
+                        contraintes personnelles juridiques et fiscales propres à votre statut d’expatrié, 
+                        afin de vous accompagner dans la réalisation de tous vos objectifs patrimoniaux 
+                        par la mise en place de stratégies sur-mesure 
+                        et la sélection en toute indépendance des meilleurs investissements pour les atteindre. 
+                    </div>
                 </div>
-                <div class="col-lg-5 col-md-12">
-                    <img class="illu-CGP" src="./assets/portrait.jpg" alt="MG">
+                <div class="col-xl-5 col-lg-12">
+                    <img class="illu-CGP" src="./assets/portrait.jpg" alt="Marie gaelle Lefebvre, Portrait">
                 </div>
             </div>
         </div>
@@ -300,7 +292,7 @@
                     Spécialiste de clientèle patrimoniale et en non-résidents, 
                     je vous accompagne dans la recherche de votre financement.
                 </div>
-                <div class="col-lg-7 col-md-12">
+                <div class="col-lg-7 col-md-12 illu-courtage-cont">
                     <img class="illu-courtage" src="./assets/carte-logo.png" alt="logo carte financement">
                 </div>
                 <div class="exp-section-content col-12">
@@ -416,32 +408,10 @@
                 </div>
             </div>
         </div>
-        <!-- <div id="section-3" class="other-section row gx-0">
-            <div class="col-8 other-desc">
-                <h4 class="service-title">Ce que je propose:</h4>
-                <div class="h-line"></div>
-                <div class="row service-display">
-                    <div class="col-6">
-                        1 journée pour apprendre et mettre en
-                        application. Prendre des décisions éclairées.
-                    </div>
-                    <div class="col-6 o-text">
-                        Bon moment partagé, vulgarisation de la technicité des produits,
-                        avoir les clefs pour prendre des décisions éclairées avec un impact
-                        immédiat.
-                    </div>
-                </div>
-            </div>
-            <div class="col-4 o-text">
-                <h5 class="product-list"><i class="fa-solid fa-globe fa-lg"></i> Théorie</h5>
-                <h5 class="product-list"><i class="fa-solid fa-user-pen fa-lg"></i> Cas pratiques</h5>
-                <h5 class="product-list"><i class="fa-solid fa-comments fa-lg"></i> Discussion</h5>
-            </div>
-        </div> -->
         <!-- fin sections -->
         <div class="footer row">
             <div class="footer-contact col-lg-6 col-md-12">
-                <h5>Contacter Marie-Gaëlle Lefebvre - Conseillère en Gestion de Patrimoine</h5>
+                <h5>Contactez Moi</h5>
                 <ul id="contact" class="contact-list">
                     <li>
                         <a id="mg-footer-info-tel" href="javascript:decryptContact('KzMzNjAyMDg1MTMy', 'tel:')">

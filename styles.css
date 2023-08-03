@@ -136,7 +136,8 @@ h3 {
 .top-element {
     background-image: url("./assets/MGmeeting2.jpg");
     background-attachment: fixed;
-    background-size: 70%;
+    background-repeat: no-repeat;
+    background-size: 100%;
     height: 80vh;
     min-height: 600px;
     max-width: 100%;
@@ -153,8 +154,9 @@ h3 {
     min-height: 300px;
     height: 100%;
     border-right: solid #FFF 50px;
-    box-shadow: -300px 50px 100px white;
+    box-shadow: -200px 0 50px white;
 }
+
 .contact-info {
     position: absolute;
     right: 0;
@@ -190,7 +192,7 @@ h3 {
     border-radius: 3px;
     min-width: 300px;
     max-width: 300px;
-    min-height: 100px;
+    height: 100px;
     margin: auto;
 }
 
@@ -297,17 +299,14 @@ h3 {
     max-height: 100%;
 }
 
-.review-text {
-    height: 200px;
-}
-
-.review-author, .review-source, .review-content {
+.review-author, .review-source {
     max-width: 100%;
     display: inline-block;
     padding: 5px 0 0;
 }
 
 .review-content {
+    max-width: 100%;
     position: relative;
     display: inline-block;
     padding: 0 5px;
@@ -326,22 +325,6 @@ h3 {
 	text-overflow: ellipsis;
     font-style: italic
 }
-
-/* .review-content::before {
-    position: absolute;
-    display: inline-block;
-    top: 0;
-    left: 0;
-    content: '\201C';
-}
-
-.review-content::after {
-    position: absolute;
-    display: inline-block;
-    bottom: 0;
-    right: 0;
-    content: '\201D';
-} */
 /* end of quotes */
 
 .review-author {
@@ -384,7 +367,7 @@ h3 {
 }
 
 .CGP-keywords {
-    padding: 30px;
+    padding: 0 30px 30px;
     background-color: rgba(255, 255, 255, 0.4);
     font-weight: bold;
 }
@@ -415,11 +398,15 @@ h3 {
     padding-left: 40px;
 }
 
+.CGP-desc-2 > div {
+    display: flex;
+}
+
 .illu-CGP {
-    /* TODO  */
     max-height: 400px;
     max-width: 100%;
     border-radius: 2px;
+    margin: 20px auto 0;
 }
 
 /* Courtage */
@@ -427,6 +414,11 @@ h3 {
 .video-embed-courting {
     margin: auto 11%;
 }
+
+.illu-courtage-cont {
+    padding-left: 0;
+}
+
 .illu-courtage {
     max-height: 150px;
     margin: 0 auto;
@@ -514,6 +506,8 @@ h3 {
     width: 100%;
     padding: 20px;
     position: relative;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .legal-info-link {
@@ -525,6 +519,12 @@ h3 {
 .contact-list li {
     padding-top: 10px;
 }
+
+.legal-info {
+    color:#000;
+}
+
+/* LG+ size */
 @media (min-width: 1024px) {
     .video-embed {
         width: 720px;
@@ -533,24 +533,47 @@ h3 {
     }
 }
 
-/* random val to get some good screen styling */
-@media (min-width: 1280px) {
+/* XL+ size */
+@media (min-width: 1200px) {
+    .illu-CGP {
+        margin: auto;
+    }
+
+    .contact-info {
+        width: 50%;
+    }
+
+    .fond {
+        box-shadow: -300px 25px 75px white;
+    }
+
+    .top-element {
+        background-size: 85%;
+    }
+}
+
+/* XXL+ size */
+@media (min-width: 1400px) {
     .button-section-container {
         max-width: 74%;
         margin: 100px auto 0;
+    }
+
+    .top-element {
+        background-size: 70%;
     }
 
     .contact-info {
         width: 40%;
     }
 
+    .fond {
+        box-shadow: -300px 50px 100px white;
+    }
+
     #nav-list .nav-link {
         padding-right: 20px;
     }
-}
-
-.legal-info {
-    color:#000;
 }
 
 /* media queries (to organise) */
@@ -581,8 +604,10 @@ h3 {
         padding-top: 0;
     }
 
-    /* specific rule to reduce the space between scientia and the stats */
-    #section-coaching-1 {
+    /* specific rule to reduce the space between scientia and the stats 
+    & the courting text & video in mobile
+    & the keywords & the CGP video */
+    #section-coaching-1, #section-courtage-1, #section-CGP-1 {
         padding-bottom: 0;
     }
 }
@@ -656,6 +681,10 @@ h3 {
     .customer-review-container {
         padding: 10px 0;
     }
+
+    .review-content {
+        margin: 15px 0 0;
+    }
 }
 
 /* phone */
@@ -720,6 +749,10 @@ h3 {
 
     .customer-review-container {
         padding: 10px 0;
+    }
+
+    .review-content {
+        margin: 15px 0 0;
     }
 }
 
