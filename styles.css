@@ -347,12 +347,7 @@ h3 {
 .video-embed-cgp, .video-embed-courting {
     background-color: #000;
     height: 405px;
-    margin: 20px auto;
     width:720px;
-}
-
-.video-embed-cgp {
-    margin-left: 120px;
 }
 
 .CGP-mission-text {
@@ -392,7 +387,7 @@ h3 {
     width: auto;
 }
 
-.CGP-desc-2 > div {
+.CGP-desc-2 > div:not(.title-cgp-2) {
     display: flex;
 }
 
@@ -407,10 +402,6 @@ h3 {
 
 .court-title {
     padding: 0;
-}
-
-.video-embed-courting {
-    margin: auto 11%;
 }
 
 .illu-courtage-cont {
@@ -530,7 +521,6 @@ h3 {
 @media (min-width: 1024px) {
     .video-embed {
         width: 720px;
-        margin: 20px 5%;
         max-width: 90%;
     }
 }
@@ -626,7 +616,6 @@ h3 {
 @media (max-width: 1024px) and (min-width: 768px) {
     .video-embed {
         width: 720px;
-        margin: 20px 5%;
         max-width: 90%;
     }
 
@@ -644,7 +633,6 @@ h3 {
 @media (max-width: 767px) and (min-width: 481px) {
     .video-embed {
         width: 720px;
-        margin: 20px 23px;
         max-width: 90%;
     }
 
@@ -701,7 +689,6 @@ h3 {
 @media (max-width: 480px) {
     .video-embed {
         width: 460px;
-        margin: 20px 10px;
         max-width: 95%;
     }
 
