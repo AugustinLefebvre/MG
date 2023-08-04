@@ -320,6 +320,7 @@ h3 {
 /* Ellipsis with quotes */
 .review-content > a {
     display: -webkit-box;
+    margin: 0 auto;
     max-height: 168px;
     max-width: 240px;
     min-height: 0;
@@ -618,6 +619,14 @@ h3 {
     .desc-problem .o-text {
         padding-bottom: 20px;
     }
+
+    .scient-top {
+        margin-top: 50px;
+    }
+
+    .scient-bottom {
+        margin-bottom: 0;
+    }    
 }
 
 /* ipad */
