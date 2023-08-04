@@ -238,6 +238,7 @@ h3 {
 .certif-icon {
     float: left;
     max-height: 80px;
+    margin-left: 10px;
 }
 
 .cert-details {
@@ -344,10 +345,10 @@ h3 {
 /* partie CGP */
 
 .video-embed-cgp, .video-embed-courting {
-    margin: 20px auto;
-    height: 405px;
-    width:720px;
     background-color: #000;
+    height: 405px;
+    margin: 20px auto;
+    width:720px;
 }
 
 .video-embed-cgp {
@@ -363,8 +364,8 @@ h3 {
 }
 
 .CGP-list {
-    padding-left: 20px;
     list-style-type: "+";
+    padding-left: 20px;
 }
 
 .CGP-list > li {
@@ -377,35 +378,18 @@ h3 {
 }
 
 .CGP-keywords {
-    padding: 0 30px 30px;
-    background-color: rgba(255, 255, 255, 0.4);
-    font-weight: bold;
-}
-
-.keyword-1 {
-    padding-left: 10px;
-    padding-top: 50px;
-}
-
-.keyword-2 {
-    padding-right: 20px;
-    padding-top: 30px;
-    text-align: right;
-}
-
-.keyword-3 {
-    padding: 25px;
+    display: inherit;
     text-align: center;
+    vertical-align: middle;
 }
 
-.keyword-4 {
-    padding-top: 20px;
-    padding-right: 40px;
-    text-align: right;
-}
-
-.keyword-5 {
-    padding-left: 40px;
+.keywords-schema {
+    height: auto;
+    margin: auto;
+    max-height: 436px;
+    max-width: 482px;
+    min-width: 330px;
+    width: auto;
 }
 
 .CGP-desc-2 > div {
@@ -413,10 +397,10 @@ h3 {
 }
 
 .illu-CGP {
-    max-height: 400px;
-    max-width: 100%;
     border-radius: 2px;
     margin: 20px auto 0;
+    max-height: 400px;
+    max-width: 100%;
 }
 
 /* Courtage */
