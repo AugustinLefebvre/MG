@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-08-06 17:39+0200\n"
-"PO-Revision-Date: 2023-08-06 17:39+0200\n"
+"POT-Creation-Date: 2023-08-06 18:57+0200\n"
+"PO-Revision-Date: 2023-08-06 18:57+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -13,14 +13,12 @@ msgstr ""
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: index.php:14
-msgid "translation test"
-msgstr "test de traduction"
-
-#: index.php:15
-msgid "second translation test"
-msgstr "deuxième test de traduction"
-
 #: navbar.php:5
 msgid "Wealth Management Advisor"
 msgstr "Conseillère en Gestion de Patrimoine"
+
+#~ msgid "translation test"
+#~ msgstr "test de traduction"
+
+#~ msgid "second translation test"
+#~ msgstr "deuxième test de traduction"
