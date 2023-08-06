@@ -1,18 +1,24 @@
 <?php
 $domain = 'homepage';
 $lang = 'fr_FR';
-bindtextdomain($domain, './translations');
-textdomain($domain);
 if ($_GET['locale']) {
     $locale = $_GET['locale'];
     echo $locale . '<= valeur retournée';
 } else {
-    $locale = 'fr';
+    $locale = 'fr_FR';
     echo 'default locale fr';
 }
-if (!setlocale(LC_ALL, array($locale ,$lang, 'fr_FR.UTF-8'))) {
+if (!setlocale(LC_ALL, $locale)) {
     echo 'locale not supported';
 }
+
+putenv("LANG=$locale");
+putenv("LANGUAGE=$locale");
+
+textdomain($domain);
+bindtextdomain($domain, './translations');
+bind_textdomain_codeset($domain, 'UTF-8');
+
 ?>
 <!doctype html>
 <html>
