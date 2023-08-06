@@ -3,7 +3,7 @@ $domain = 'homepage';
 $lang = 'fr_FR';
 bindtextdomain($domain, './' . DIRECTORY_SEPARATOR . 'translations');
 textdomain($domain);
-if (!setlocale(LC_ALL, $lang, 'fr_FR.UTF8')) {
+if (!setlocale(LC_ALL, array($lang, 'fr_FR.UTF-8'))) {
     throw new exception('locale not supported');
 }
 ?>
