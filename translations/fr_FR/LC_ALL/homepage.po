@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-08-06 17:31+0200\n"
-"PO-Revision-Date: 2023-08-06 17:31+0200\n"
+"POT-Creation-Date: 2023-08-06 17:39+0200\n"
+"PO-Revision-Date: 2023-08-06 17:39+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -10,8 +10,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.3.2\n"
-"X-Poedit-Basepath: ../..\n"
+"X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: .\n"
+
+#: index.php:14
+msgid "translation test"
+msgstr "test de traduction"
+
+#: index.php:15
+msgid "second translation test"
+msgstr "deuxième test de traduction"
 
 #: navbar.php:5
 msgid "Wealth Management Advisor"
