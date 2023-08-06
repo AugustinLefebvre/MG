@@ -1,18 +1,25 @@
 <?php
 $domain = 'homepage';
 $lang = 'fr_FR';
-bindtextdomain($domain, './' . DIRECTORY_SEPARATOR . 'translations');
+bindtextdomain($domain, './translations');
 textdomain($domain);
-if (!setlocale(LC_ALL, array($lang, 'fr_FR.UTF-8'))) {
-    throw new exception('locale not supported');
+if ($_GET['locale']) {
+    $locale = $_GET['locale'];
+    echo $locale . '<= valeur retournée';
+} else {
+    $locale = 'fr';
+    echo 'default locale fr';
+}
+if (!setlocale(LC_ALL, array($locale ,$lang, 'fr_FR.UTF-8'))) {
+    echo 'locale not supported';
 }
 ?>
 <!doctype html>
 <html>
     <?php include('./head.php');?>
     <body>
-        <?= _('translation test')?>
-        <?= gettext('second translation test')?>
+        <?= _('translation test');?>
+        <?= gettext('second translation test');?>
 
         <?php
             include('./navbar.php');
