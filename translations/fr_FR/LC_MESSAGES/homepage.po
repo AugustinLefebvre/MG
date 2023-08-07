@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-08-06 18:57+0200\n"
-"PO-Revision-Date: 2023-08-06 18:57+0200\n"
+"POT-Creation-Date: 2023-08-07 10:57+0200\n"
+"PO-Revision-Date: 2023-08-07 11:00+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -13,12 +13,87 @@ msgstr ""
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: navbar.php:5
+#: aboutme.php:5
+msgid "Master Degree in Wealth Management"
+msgstr "Master en Gestion de Patrimoine"
+
+#: aboutme.php:9
+msgid "AMF Certificate"
+msgstr "Certification AMF"
+
+#: aboutme.php:9
+msgid "(Financial Markets Authority)"
+msgstr "(Autorité des Marchés Financiers)"
+
+#: aboutme.php:17 navbar.php:13
+msgid "who-am-i"
+msgstr "Qui suis-je ?"
+
+#: aboutme.php:19
+msgid "WAI-accroche-1"
+msgstr ""
+"Nous avons tous des rêves, notre vie est guidée par cette quête. Le facteur "
+"principalement cité dans la réalisation du rêve est l’argent. Pas forcément "
+"son manque mais la stratégie financière pour l’atteindre."
+
+#: aboutme.php:25
+msgid "WAI-accroche-2"
+msgstr ""
+"Dotée de plusieurs années d’expériences bancaires, je suis aujourd’hui "
+"indépendante en gestion de patrimoine, courtière et coach.\n"
+"J’offre à mes clients un conseil impartial et un accompagnement "
+"personnalisé pour les aider dans la mise en place de stratégies pour "
+"l’accomplissement de leurs projets."
+
+#: aboutme.php:33
+msgid "WAI-accroche-3"
+msgstr ""
+"Globe trotteuse, passionnée de rencontres, d’écologie, de startups "
+"révolutionnaires et engagées, d'innovations financières. \n"
+"Ma mission: développer la culture financière de chacun."
+
+#: aboutme.php:44
+msgid "WAI-video-title"
+msgstr "Présentation de Marie-Gaëlle Lefebvre"
+
+#: head.php:2 head.php:9 homepage.php:14 navbar.php:5
 msgid "Wealth Management Advisor"
 msgstr "Conseillère en Gestion de Patrimoine"
 
-#~ msgid "translation test"
-#~ msgstr "test de traduction"
+#: head.php:7
+msgid "website keywords"
+msgstr ""
+"Conseil, Gestion de patrimoine, Coaching financier, Courtage, Courtier, "
+"finance, Marie-Gaëlle Lefebvre, non-résidents, Clientèle privée, épargne, "
+"investissement, accompagnement"
 
-#~ msgid "second translation test"
-#~ msgstr "deuxième test de traduction"
+#: head.php:8 head.php:11
+msgid "website description"
+msgstr ""
+"Marie-Gaëlle Lefebvre est une experte en Courtage, en Gestion de patrimoine "
+"et Coach, retrouvez ici tous les services qu'elle propose ainsi que ses "
+"coordonnées pour la contacter directement"
+
+#: homepage.php:4
+msgid "Contact Me : "
+msgstr "Contactez Moi : "
+
+#: homepage.php:17
+msgid "Financial Broker"
+msgstr "Courtière en Financement"
+
+#: homepage.php:20
+msgid "Financial Coach"
+msgstr "Coach Financière"
+
+#: navbar.php:14
+msgid "Wealth Management"
+msgstr "Gestion de Patrimoine"
+
+#: navbar.php:15
+msgid "Brokerage"
+msgstr "Courtage"
+
+#: navbar.php:16
+msgid "Financial Coaching"
+msgstr "Coaching Financier"

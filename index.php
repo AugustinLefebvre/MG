@@ -21,7 +21,7 @@ textdomain($domain);
             include('./aboutme.php');
             include('./reviews.php');
             include('./cgp.php');
-            include('./broker.php');
+            include('./brokerage.php');
             include('./coaching.php');
             include('./footer.php');
         ?>

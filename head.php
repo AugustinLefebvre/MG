@@ -1,14 +1,14 @@
 <head>
-    <title>Marie-Gaëlle Lefebvre - Conseillère en Gestion de Patrimoine</title>
+    <title>Marie-Gaëlle Lefebvre - <?= _('Wealth Management Advisor');?></title>
     <link rel="icon" type="image/x-icon" href="./assets/icon.png">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex, nofollow" />
-    <meta name="keywords" content="Conseil, Gestion de patrimoine, Coaching financier, Courtage, Courtier, finance, Marie-Gaëlle Lefebvre, non-résidents, Clientèle privée, épargne, conseil, investissement, accompagnement">
-    <meta name="description" content="Marie-Gaëlle Lefebvre est une experte en Courtage, en Gestion de patrimoine et coach, retrouvez ici tous les services qu'elle propose ainsi que ses coordonnées pour la contacter directement">
-    <meta property="og:title" content="Marie-Gaëlle Lefebvre - Conseillère en Gestion de Patrimoine" />
+    <meta name="keywords" content="<?= _('website keywords');?>">
+    <meta name="description" content="<?= _('website description');?>">
+    <meta property="og:title" content="Marie-Gaëlle Lefebvre - <?= _('Wealth Management Advisor');?>" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="Marie-Gaëlle Lefebvre est une experte en Courtage, en Gestion de patrimoine et coach, retrouvez ici tous les services qu'elle propose ainsi que ses coordonnées pour la contacter directement"/>
+    <meta property="og:description" content="<?= _('website description');?>"/>
     <meta property="og:url" content="https://mglefebvre.com" />
     <meta property="og:image" content="./assets/portrait.jpg" />
     

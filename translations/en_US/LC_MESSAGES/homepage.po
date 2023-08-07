@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-08-07 10:57+0200\n"
+"PO-Revision-Date: 2023-08-07 11:16+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: aboutme.php:5
+msgid "Master Degree in Wealth Management"
+msgstr "Master Degree in Wealth Management"
+
+#: aboutme.php:9
+msgid "AMF Certificate"
+msgstr "AMF Certificate"
+
+#: aboutme.php:9
+msgid "(Financial Markets Authority)"
+msgstr "(Financial Markets Authority)"
+
+#: aboutme.php:17 navbar.php:13
+msgid "who-am-i"
+msgstr "Who am I ?"
+
+#: aboutme.php:19
+msgid "WAI-accroche-1"
+msgstr ""
+"We all have dreams, our life is driven by this quest. The most quoted way to "
+"make a dream real is money. Not necessarily the lack of it but the financial "
+"strategy to achieve the dream."
+
+#: aboutme.php:25
+msgid "WAI-accroche-2"
+msgstr ""
+"With multiple years of banking experience, I am now self-employed as a "
+"wealth manager, broker and coach.\n"
+"I offer an unbiased advising and a custom accompaniement to my customers in "
+"order to help them setup their strategies to achieve their goal. "
+
+#: aboutme.php:33
+msgid "WAI-accroche-3"
+msgstr ""
+"Globetrotter, encounters, ecology, revolutionary and commited startups, "
+"innovative actions enthusiast. \n"
+"My mission: develop everyone's financial culture"
+
+#: aboutme.php:44
+msgid "WAI-video-title"
+msgstr "Marie-Gaëlle Lefebvre presentation"
+
+#: head.php:2 head.php:9 homepage.php:14 navbar.php:5
+msgid "Wealth Management Advisor"
+msgstr "Wealth Management Advisor"
+
+#: head.php:7
+msgid "website keywords"
+msgstr ""
+"Advising, Wealth Management, Financial Coaching, Brokerage, Broker, finance, "
+"Marie-Gaëlle Lefebvre, non-residents, Private clientele, saving, investment, "
+"accompaniement"
+
+#: head.php:8 head.php:11
+msgid "website description"
+msgstr ""
+"Marie-Gaëlle Lefebvre is an expert in Brokerage, Wealth Advising and is a "
+"Financial Coach, find all the related services on this website and many ways "
+"to contact her"
+
+#: homepage.php:4
+msgid "Contact Me : "
+msgstr "Contact Me: "
+
+#: homepage.php:17
+msgid "Financial Broker"
+msgstr "Financial Broker"
+
+#: homepage.php:20
+msgid "Financial Coach"
+msgstr "Financial Coach"
+
+#: navbar.php:14
+msgid "Wealth Management"
+msgstr "Wealth Management"
+
+#: navbar.php:15
+msgid "Brokerage"
+msgstr "Brokerage"
+
+#: navbar.php:16
+msgid "Financial Coaching"
+msgstr "Financial Coaching"

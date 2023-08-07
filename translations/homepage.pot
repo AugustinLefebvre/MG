@@ -1,0 +1,82 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-08-07 10:57+0200\n"
+"PO-Revision-Date: 2023-08-06 18:57+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: aboutme.php:5
+msgid "Master Degree in Wealth Management"
+msgstr ""
+
+#: aboutme.php:9
+msgid "AMF Certificate"
+msgstr ""
+
+#: aboutme.php:9
+msgid "(Financial Markets Authority)"
+msgstr ""
+
+#: aboutme.php:17 navbar.php:13
+msgid "who-am-i"
+msgstr ""
+
+#: aboutme.php:19
+msgid "WAI-accroche-1"
+msgstr ""
+
+#: aboutme.php:25
+msgid "WAI-accroche-2"
+msgstr ""
+
+#: aboutme.php:33
+msgid "WAI-accroche-3"
+msgstr ""
+
+#: aboutme.php:44
+msgid "WAI-video-title"
+msgstr ""
+
+#: head.php:2 head.php:9 homepage.php:14 navbar.php:5
+msgid "Wealth Management Advisor"
+msgstr ""
+
+#: head.php:7
+msgid "website keywords"
+msgstr ""
+
+#: head.php:8 head.php:11
+msgid "website description"
+msgstr ""
+
+#: homepage.php:4
+msgid "Contact Me : "
+msgstr ""
+
+#: homepage.php:17
+msgid "Financial Broker"
+msgstr ""
+
+#: homepage.php:20
+msgid "Financial Coach"
+msgstr ""
+
+#: navbar.php:14
+msgid "Wealth Management"
+msgstr ""
+
+#: navbar.php:15
+msgid "Brokerage"
+msgstr ""
+
+#: navbar.php:16
+msgid "Financial Coaching"
+msgstr ""
