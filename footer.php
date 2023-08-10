@@ -26,6 +26,6 @@
         </ul>
     </div>
     <div class="col-lg-6 col-md-12">
-        <a class="legal-info-link" href="./legalnotice.html">Mentions Légales</a>
+        <a class="legal-info-link" href="./legalnotice.php">Mentions Légales</a>
     </div>
 </div>

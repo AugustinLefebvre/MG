@@ -1,0 +1,27 @@
+body {
+    height: 100%;
+}
+
+.error-body {
+    background-color: #021630;
+    height: calc(100% - 226px);
+    margin:0;
+    max-width: 100%;
+    min-height: 600px;
+    padding-top: 20%;
+    position: relative;
+    text-align: center;
+    border-bottom: 2px solid #da5d13;
+}
+
+
+.error-button {
+    background-color: #da5d13;
+    border: 2px solid #FFF;
+    border-radius: 2px;
+    padding: 10px 20px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 24px;
+    box-shadow: 5px 5px 5px #000;
+}

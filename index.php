@@ -1,9 +1,24 @@
 <?php
+
 $locale = 'fr_FR.utf8';
 if (isset($_GET["locale"])) {
     $locale = $_GET["locale"];
 }
-$domain = 'homepage';
+
+// workaround for windows env. to display the default fr translation
+// var_dump(getenv('SERVER_CONTEXT'));
+if (getenv("SERVER_CONTEXT") == "dev") {
+    switch ($locale) {
+        case 'en_US.utf8':
+            $domain = 'homepage';
+            break;
+        default:
+            $domain = 'homepage_fr';
+            break;
+    }
+} else {
+    $domain = 'homepage_fr';
+}
 
 putenv("LC_ALL=$locale");
 setlocale(LC_ALL, $locale, 'fr_FR', '');
@@ -13,7 +28,9 @@ textdomain($domain);
 ?>
 <!doctype html>
 <html lang="<?=$locale?>">
-    <?php include('./head.php');?>
+    <head>
+        <?php include('./head.php');?>
+    </head>
     <body>
         <?php
             include('./navbar.php');

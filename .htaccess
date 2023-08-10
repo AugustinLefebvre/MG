@@ -1,0 +1,36 @@
+DefaultLanguage fr_FR
+Options -ExecCGI -MultiViews -Includes -Indexes
+Options FollowSymLinks
+DirectoryIndex index.php /index.php
+ServerSignature Off
+SetEnv TZ Europe/Paris
+AddDefaultCharset UTF-8
+LimitRequestBody 10240000
+
+# locale workaround for windows
+SetEnv SERVER_CONTEXT "dev"
+
+AddType image/x-icon .ico
+
+# HTTP redirection to HTTPS
+# to modify
+# RewriteEngine On
+# RewriteCond %{SERVER_PORT} 80
+# RewriteRule ^(.*)$ https://localhost/site [R=301,L]
+
+## PROTECT FILES
+# config files
+<FilesMatch "\.(htaccess|htpasswd|ini|phps|fla|psd|log|sh)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# view files
+<FilesMatch "^((?!\bindex\b|\blegalnotice\b|err_)([a-zA-Z\d]*))\.php$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+#to modify
+ErrorDocument 404 /site/errors/err_notfound.php
+ErrorDocument 403 /site/errors/err_notfound.php

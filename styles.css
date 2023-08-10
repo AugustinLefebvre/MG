@@ -81,7 +81,7 @@ h3 {
     min-height: 70px;
     width: 100%;
     z-index: 999999;
-    border-bottom: #da5d13 2px solid;
+    border-bottom: 2px solid #da5d13;
     color: #FFF;
 }
 
@@ -157,7 +157,7 @@ h3 {
     width: 30%;
     min-height: 300px;
     height: 100%;
-    border-right: solid #FFF 50px;
+    border-right: 50px solid #FFF;
     box-shadow: -200px 0 50px white;
 }
 
