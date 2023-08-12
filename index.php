@@ -1,33 +1,46 @@
 <?php
 
 $locale = 'fr_FR.utf8';
-if (isset($_GET["locale"])) {
-    $locale = $_GET["locale"];
+if (isset($_GET["lang"])) {
+    $lang = $_GET["lang"];
+} else {
+    $lang = 'fr';
+}
+
+// Adds language locales according to the given lang parameter. Default value is french.
+switch ($lang) {
+    case 'en':
+        $locale = array(
+            'en_US.utf8',
+            'en_US',
+            'en'
+        );
+        break;
+    default:
+        // FR 
+        array(
+            'fr_FR.utf8',
+            'fr_FR',
+            'fr'
+        );
+        break;
 }
 
 // workaround for windows env. to display the default fr translation
-// var_dump(getenv('SERVER_CONTEXT'));
-if (getenv("SERVER_CONTEXT") == "dev") {
-    switch ($locale) {
-        case 'en_US.utf8':
-            $domain = 'homepage';
-            break;
-        default:
-            $domain = 'homepage_fr';
-            break;
-    }
+if (getenv("SERVER_CONTEXT") == "dev" && is_array($locale) && array_search('en_US.utf8', $locale) !== false) {
+    $domain = 'homepage';
 } else {
     $domain = 'homepage_fr';
 }
 
-putenv("LC_ALL=$locale");
-setlocale(LC_ALL, $locale, 'fr_FR', '');
+putenv("LC_ALL=$lang");
+setlocale(LC_ALL, $locale, 'fr_FR.utf8', '');
 bindtextdomain($domain, "./translations");
 textdomain($domain);
 
 ?>
 <!doctype html>
-<html lang="<?=$locale?>">
+<html lang="<?=$lang?>">
     <head>
         <?php include('./head.php');?>
     </head>

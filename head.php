@@ -6,6 +6,7 @@
     <meta name="robots" content="noindex, nofollow" />
     <meta name="keywords" content="<?= _('website keywords');?>">
     <meta name="description" content="<?= _('website description');?>">
+    <meta name="author" content="Augustin Lefebvre" />
     <meta property="og:title" content="Marie-Gaëlle Lefebvre - <?= _('Wealth Management Advisor');?>" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="<?= _('website description');?>"/>
