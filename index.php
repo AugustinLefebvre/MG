@@ -27,11 +27,14 @@ switch ($lang) {
 }
 
 // workaround for windows env. to display the default fr translation
-if (getenv("SERVER_CONTEXT") == "dev" && is_array($locale) && array_search('en_US.utf8', $locale) !== false) {
-    $domain = 'homepage';
-} else {
-    $domain = 'homepage_fr';
-}
+// REMOVE FOR PROD 
+// if (getenv("SERVER_CONTEXT") == "dev" && is_array($locale) && array_search('en_US.utf8', $locale) !== false) {
+//     $domain = 'homepage';
+// } else {
+//     $domain = 'homepage_fr';
+// }
+// Prod domain setup
+$domain = 'homepage';
 
 putenv("LC_ALL=$lang");
 setlocale(LC_ALL, $locale, 'fr_FR.utf8', '');
