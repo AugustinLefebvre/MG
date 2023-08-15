@@ -1,6 +1,6 @@
 <div class="footer row">
     <div class="footer-contact col-lg-6 col-md-12">
-        <h5><?= _('Contact Me : ');?>Contactez Moi:</h5>
+        <h5><?= _('Contact Me : ');?></h5>
         <ul id="contact" class="contact-list">
             <li>
                 <a id="mg-footer-info-tel" href="javascript:decryptContact('KzMzNjAyMDg1MTMy', 'tel:')">
