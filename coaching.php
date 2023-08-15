@@ -1,7 +1,7 @@
 <div id="section-coaching-1" class="other-section row gx-0">
     <div class="col-lg-8 col-md-12 other-desc">
         <h4>
-            <?= _('Financial Coaching');?>Coaching Financier
+            <?= _('Financial Coaching');?>
         </h4>
         <div class="h-line"></div>
         <div class="exp-section-content o-text">
