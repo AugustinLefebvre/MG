@@ -11,7 +11,7 @@
 
     <div class="button-section-container row">
         <a href="#section-CGP-1" class="section-button col-4">
-            <h4 class="o-text two-liner"><?= _('Wealth Management Advisor');?></h4>
+            <h4 class="o-text <?php if ($lang !== "en") echo 'two-liner';?>"><?= _('Wealth Management Advisor');?></h4>
         </a>
         <a href="#section-courtage-1" class="section-button col-4">
             <h4 class="o-text"><?= _('Financial Broker');?></h4>

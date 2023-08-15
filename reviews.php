@@ -16,7 +16,7 @@
         </div>
         <span class="review-author o-text">Louis G.</span>
         <br/>
-        <span class="review-source">via LinkedIn</span>
+        <span class="review-source"><?= _('via LinkedIn');?></span>
     </div>
     <div class="customer-review-container col-xl-2 col-md-4 col-sm-6 col-xs-12">
         <div class="review-text">
@@ -29,7 +29,7 @@
         </div>
         <span class="review-author o-text">Sylvestre C.</span>
         <br/>
-        <span class="review-source">via LinkedIn</span>
+        <span class="review-source"><?= _('via LinkedIn');?></span>
     </div>
     <div class="customer-review-container col-xl-2 col-md-4 col-sm-6 col-xs-12">
         <div class="review-text">
@@ -44,7 +44,7 @@
         </div>
         <span class="review-author o-text">Cyril N.</span>
         <br/>
-        <span class="review-source">via LinkedIn</span>
+        <span class="review-source"><?= _('via LinkedIn');?></span>
     </div>
     <div class="customer-review-container col-xl-2 col-md-4 col-sm-6 d-none d-sm-block">
         <div class="review-text">
@@ -60,7 +60,7 @@
         </div>
         <span class="review-author o-text">Hélène F.</span>
         <br/>
-        <span class="review-source">via LinkedIn</span>
+        <span class="review-source"><?= _('via LinkedIn');?></span>
     </div>
     <div class="customer-review-container col-xl-2 col-md-4 col-sm-6 d-none d-md-block">
         <div class="review-text">
@@ -74,7 +74,7 @@
         </div>
         <span class="review-author o-text">Francois-Xavier R.</span>
         <br/>
-        <span class="review-source">via LinkedIn</span>
+        <span class="review-source"><?= _('via LinkedIn');?></span>
     </div>
     <div class="customer-review-container col-xl-2 col-md-4 col-sm-6 d-none d-md-block">
         <div class="review-text">
@@ -94,6 +94,6 @@
         </div>
         <span class="review-author o-text">Paul S.</span>
         <br/>
-        <span class="review-source">via LinkedIn</span>
+        <span class="review-source"><?= _('via LinkedIn');?></span>
     </div>
 </div>

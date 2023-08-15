@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-08-07 10:57+0200\n"
-"PO-Revision-Date: 2023-08-07 11:16+0200\n"
+"POT-Creation-Date: 2023-08-15 18:09+0200\n"
+"PO-Revision-Date: 2023-08-15 18:14+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -36,7 +36,7 @@ msgstr ""
 "make a dream real is money. Not necessarily the lack of it but the financial "
 "strategy to achieve the dream."
 
-#: aboutme.php:25
+#: aboutme.php:22
 msgid "WAI-accroche-2"
 msgstr ""
 "With multiple years of banking experience, I am now self-employed as a "
@@ -44,18 +44,245 @@ msgstr ""
 "I offer an unbiased advising and a custom accompaniement to my customers in "
 "order to help them setup their strategies to achieve their goal. "
 
-#: aboutme.php:33
+#: aboutme.php:25
 msgid "WAI-accroche-3"
 msgstr ""
 "Globetrotter, encounters, ecology, revolutionary and commited startups, "
 "innovative actions enthusiast. \n"
 "My mission: develop everyone's financial culture"
 
-#: aboutme.php:44
+#: aboutme.php:32
 msgid "WAI-video-title"
 msgstr "Marie-Gaëlle Lefebvre presentation"
 
-#: head.php:2 head.php:9 homepage.php:14 navbar.php:5
+#: brokerage.php:5 navbar.php:15
+msgid "Brokerage"
+msgstr "Brokerage"
+
+#: brokerage.php:10
+msgid ""
+"Specialist in wealth advising and non-residents, I support you in your "
+"financing search."
+msgstr ""
+"Specialist in wealth advising and non-residents, I support you in your "
+"financing search."
+
+#: brokerage.php:17
+msgid "Private clientele:"
+msgstr "Private clientele:"
+
+#: brokerage.php:19
+msgid ""
+"My specialized financial skills and my understanding of the environment of "
+"each borrower allow me to structure financing adapted to the multitude of "
+"heritage projects of my private clients./My various years in the bank have "
+"also allowed me to have this overall approach and to know the business as a "
+"whole."
+msgstr ""
+"My specialized financial skills and my understanding of the environment of "
+"each borrower allow me to structure financing adapted to the multitude of "
+"heritage projects of my private clients.\n"
+"My various years in the bank have also allowed me to have this overall "
+"approach and to know the business as a whole."
+
+#: brokerage.php:31
+msgid "brokerage presentation"
+msgstr "brokerage presentation"
+
+#: brokerage.php:44
+msgid "Non-residents:"
+msgstr "Non-residents:"
+
+#: brokerage.php:46
+msgid ""
+"An atypical profile requiring real financial expertise / We simplify the "
+"steps necessary to obtain a mortgage for non-residents of France and "
+"foreigners with varied profiles from all over the world. // A mainly remote "
+"service so that our customers benefit from the best financing conditions "
+"without having to travel."
+msgstr ""
+"An atypical profile requiring real financial expertise\n"
+"\n"
+"We simplify the steps necessary to obtain a mortgage for non-residents of "
+"France and foreigners with varied profiles from all over the world.\n"
+"\n"
+"\n"
+" A mainly remote service so that our customers benefit from the best "
+"financing conditions without having to travel."
+
+#: cgp.php:5 cgp.php:24
+msgid "Wealth Management Advising"
+msgstr "Wealth Management Advising"
+
+#: cgp.php:9
+msgid "Whether you live in France or abroad, my mission is to:"
+msgstr "Whether you live in France or abroad, my mission is to:"
+
+#: cgp.php:12
+msgid "Support you"
+msgstr "Support you"
+
+#: cgp.php:13
+msgid "Advise you"
+msgstr "Advise you"
+
+#: cgp.php:14
+msgid "Offer you the most relevant solutions"
+msgstr "Offer you the most relevant solutions"
+
+#: cgp.php:16
+msgid "in creation, development, securing and transmission of your wealth."
+msgstr "in creation, development, securing and transmission of your wealth."
+
+#: cgp.php:17
+msgid ""
+"I select with you the solutions adapted for your needs among all the offers "
+"on the market and at the best conditions"
+msgstr ""
+"I select with you the solutions adapted for your needs among all the offers "
+"on the market and at the best conditions."
+
+#: cgp.php:34
+msgid "Investments, Financial savings, Advising, Tax reduction, Real estate"
+msgstr "Investments, Financial savings, Advising, Tax reduction, Real estate"
+
+#: cgp.php:38
+msgid "My Mission"
+msgstr "My Mission"
+
+#: cgp.php:44
+msgid ""
+"Living abroad myself, I intimately know the specifics of the life of non-"
+"residents and expatriates"
+msgstr ""
+"Living abroad myself, I intimately know the specifics of the life of non-"
+"residents and expatriates"
+
+#: cgp.php:47
+msgid ""
+"My job is to take into account your specificities and your personal legal "
+"and tax constraints specific to your expatriate status, to support you in "
+"achieving all your wealth goals, by implementing strategies specifically "
+"made for you and by independently selecting the best investments to achieve "
+"them"
+msgstr ""
+"My job is to take into account your specificities and your personal legal "
+"and tax constraints specific to your expatriate status, to support you in "
+"achieving all your wealth goals, by implementing strategies specifically "
+"made for you and by independently selecting the best investments to achieve "
+"them."
+
+#: coaching.php:4 navbar.php:16
+msgid "Financial Coaching"
+msgstr "Financial Coaching"
+
+#: coaching.php:8
+msgid ""
+"In a context of increasing complexity and technicality of the economy and of "
+"the financial sector, everyone needs information and everyone has a right to "
+"it."
+msgstr ""
+"In a context of increasing complexity and technicality of the economy and of "
+"the financial sector, everyone needs information and everyone has a right to "
+"it."
+
+#: coaching.php:12
+msgid ""
+"A good mastery of basic knowledge in economic, budgetary and financial "
+"matters is a citizen issue and an asset for everyone. It is not a question "
+"of making everyone an expert, it is a question of understanding better in "
+"order to decide better."
+msgstr ""
+"A good mastery of basic knowledge in economic, budgetary and financial "
+"matters is a citizen issue and an asset for everyone. It is not a question "
+"of making everyone an expert, it is a question of understanding better in "
+"order to decide better."
+
+#: coaching.php:20
+msgid "Knowledge is power"
+msgstr "Knowledge is power"
+
+#: coaching.php:27
+msgid ""
+"of French people feel that they do not have sufficiently reliable and "
+"neutral information to manage their budget effectively."
+msgstr ""
+"of French people feel that they do not have sufficiently reliable and "
+"neutral information to manage their budget effectively."
+
+#: coaching.php:32
+msgid "consider their knowledge average or low on financial issues"
+msgstr "consider their knowledge average or low on financial issues"
+
+#: coaching.php:37
+msgid "consider that financial education is necessary at school."
+msgstr "consider that financial education is necessary at school."
+
+#: coaching.php:44
+msgid ""
+"My active listening of the problems of my clients and my personal entourage "
+"made me realize that whatever the background:"
+msgstr ""
+"My active listening of the problems of my clients and my personal entourage "
+"made me realize that whatever the background:"
+
+#: coaching.php:48
+msgid ""
+"the lack of financial culture and the lack of knowledge of the basics of "
+"money sometimes lead to dangerous decisions on a heritage."
+msgstr ""
+"the lack of financial culture and the lack of knowledge of the basics of "
+"money sometimes lead to dangerous decisions on a heritage."
+
+#: coaching.php:53
+msgid ""
+"It is in front of this real need for knowledge on money management, that I "
+"launched out in the coaching."
+msgstr ""
+"It is in front of this real need for knowledge on money management, that I "
+"launched out in the coaching."
+
+#: errors/err_notfound.php:9
+msgid "Error 404: the page you're trying to access is not here"
+msgstr "Error 404: the page you're trying to access is not here"
+
+#: errors/err_notfound.php:10
+msgid ""
+"you must have entered the wrong address or the link you employed to come "
+"here isn't valid anymore"
+msgstr ""
+"you must have entered the wrong address or the link you employed to come "
+"here isn't valid anymore"
+
+#: errors/err_notfound.php:11
+msgid "Navigate back to the homepage"
+msgstr "Navigate back to the homepage"
+
+#: footer.php:3 homepage.php:4
+msgid "Contact Me : "
+msgstr "Contact Me: "
+
+#: footer.php:8
+msgid "Phone:"
+msgstr "Phone: "
+
+#: footer.php:10
+msgid "or"
+msgstr "or"
+
+#: footer.php:15
+msgid "Whatsapp:"
+msgstr "Whatsapp: "
+
+#: footer.php:20
+msgid "Email:"
+msgstr "Email : "
+
+#: footer.php:29
+msgid "Legal notice"
+msgstr "Legal notice"
+
+#: head.php:2 head.php:10 homepage.php:14 navbar.php:5
 msgid "Wealth Management Advisor"
 msgstr "Wealth Management Advisor"
 
@@ -66,16 +293,12 @@ msgstr ""
 "Marie-Gaëlle Lefebvre, non-residents, Private clientele, saving, investment, "
 "accompaniement"
 
-#: head.php:8 head.php:11
+#: head.php:8 head.php:12
 msgid "website description"
 msgstr ""
 "Marie-Gaëlle Lefebvre is an expert in Brokerage, Wealth Advising and is a "
 "Financial Coach, find all the related services on this website and many ways "
 "to contact her"
-
-#: homepage.php:4
-msgid "Contact Me : "
-msgstr "Contact Me: "
 
 #: homepage.php:17
 msgid "Financial Broker"
@@ -89,10 +312,7 @@ msgstr "Financial Coach"
 msgid "Wealth Management"
 msgstr "Wealth Management"
 
-#: navbar.php:15
-msgid "Brokerage"
-msgstr "Brokerage"
-
-#: navbar.php:16
-msgid "Financial Coaching"
-msgstr "Financial Coaching"
+#: reviews.php:19 reviews.php:32 reviews.php:47 reviews.php:63 reviews.php:77
+#: reviews.php:97
+msgid "via LinkedIn"
+msgstr "through LinkedIn"

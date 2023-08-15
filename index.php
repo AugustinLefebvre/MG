@@ -18,7 +18,7 @@ switch ($lang) {
         break;
     default:
         // FR 
-        array(
+        $locale = array(
             'fr_FR.utf8',
             'fr_FR',
             'fr'
@@ -40,7 +40,6 @@ putenv("LC_ALL=$lang");
 setlocale(LC_ALL, $locale, 'fr_FR.utf8', '');
 bindtextdomain($domain, "./translations");
 textdomain($domain);
-
 ?>
 <!doctype html>
 <html lang="<?=$lang?>">

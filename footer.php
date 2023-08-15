@@ -1,23 +1,23 @@
 <div class="footer row">
     <div class="footer-contact col-lg-6 col-md-12">
-        <h5>Contactez Moi:</h5>
+        <h5><?= _('Contact Me : ');?>Contactez Moi:</h5>
         <ul id="contact" class="contact-list">
             <li>
                 <a id="mg-footer-info-tel" href="javascript:decryptContact('KzMzNjAyMDg1MTMy', 'tel:')">
                     <i class="fa-solid fa-phone"></i>
-                        Téléphone: 
+                    <?= _('Phone:');?>
                 </a>
-                    ou 
+                    <?= _('or');?>
                 <a id="mg-footer-info-wa1" href="javascript:decryptContact('NDQ3OTIyOTIzMDkwIA', 'tel:+')"></a>
             </li>
             <li>
                 <a id="mg-footer-info-wa2" href="javascript:decryptContact('NDQ3OTIyOTIzMDkwIA', 'https://wa.me/')">
-                    <i class="fa-brands fa-whatsapp"></i> Whatsapp: 
+                    <i class="fa-brands fa-whatsapp"></i> <?= _('Whatsapp:');?>
                 </a>
             </li>
             <li>
                 <a id="mg-footer-info" href="javascript:decryptContact('bWcubGVmZWJ2cmVAdmlhLWFwLmNvbQ', 'mailto:')"><i class="fa-solid fa-at"></i>
-                        Email: 
+                    <?= _('Email:');?>
                 </a>
             </li>
             <li>
@@ -26,6 +26,6 @@
         </ul>
     </div>
     <div class="col-lg-6 col-md-12">
-        <a class="legal-info-link" href="./legalnotice.php">Mentions Légales</a>
+        <a class="legal-info-link" href="./legalnotice.php"><?= _('Legal notice');?></a>
     </div>
 </div>

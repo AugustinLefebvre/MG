@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-08-07 10:57+0200\n"
-"PO-Revision-Date: 2023-08-07 11:00+0200\n"
+"POT-Creation-Date: 2023-08-15 17:36+0200\n"
+"PO-Revision-Date: 2023-08-15 17:52+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -36,27 +36,162 @@ msgstr ""
 "principalement cité dans la réalisation du rêve est l’argent. Pas forcément "
 "son manque mais la stratégie financière pour l’atteindre."
 
-#: aboutme.php:25
+#: aboutme.php:22
 msgid "WAI-accroche-2"
 msgstr ""
 "Dotée de plusieurs années d’expériences bancaires, je suis aujourd’hui "
 "indépendante en gestion de patrimoine, courtière et coach.\n"
-"J’offre à mes clients un conseil impartial et un accompagnement "
-"personnalisé pour les aider dans la mise en place de stratégies pour "
-"l’accomplissement de leurs projets."
+"J’offre à mes clients un conseil impartial et un accompagnement personnalisé "
+"pour les aider dans la mise en place de stratégies pour l’accomplissement de "
+"leurs projets."
 
-#: aboutme.php:33
+#: aboutme.php:25
 msgid "WAI-accroche-3"
 msgstr ""
 "Globe trotteuse, passionnée de rencontres, d’écologie, de startups "
 "révolutionnaires et engagées, d'innovations financières. \n"
 "Ma mission: développer la culture financière de chacun."
 
-#: aboutme.php:44
+#: aboutme.php:32
 msgid "WAI-video-title"
 msgstr "Présentation de Marie-Gaëlle Lefebvre"
 
-#: head.php:2 head.php:9 homepage.php:14 navbar.php:5
+#: brokerage.php:5 navbar.php:15
+msgid "Brokerage"
+msgstr "Courtage"
+
+#: brokerage.php:10
+msgid ""
+"Specialist in wealth advising and non-residents, I support you in your "
+"financing search."
+msgstr ""
+"Spécialiste de clientèle patrimoniale et en non-résidents, je vous "
+"accompagne dans la recherche de votre financement."
+
+#: brokerage.php:17
+msgid "Private clientele:"
+msgstr "Clientèle privée :"
+
+#: brokerage.php:19
+msgid ""
+"My specialized financial skills and my understanding of the environment of "
+"each borrower allow me to structure financing adapted to the multitude of "
+"heritage projects of my private clients./My various years in the bank have "
+"also allowed me to have this overall approach and to know the business as a "
+"whole."
+msgstr ""
+"Mes compétences financières pointues et ma compréhension de l’environnement "
+"de chacun des emprunteurs, me permettent de structurer un financement adapté "
+"à la multitude de projets patrimoniaux de ma clientèle privée.\n"
+"Mes diverses années en banque m’ont également permise d’avoir cette approche "
+"d’ensemble et de connaître le métier dans sa globalité."
+
+#: brokerage.php:34
+msgid "brokerage presentation"
+msgstr "présentation courtage"
+
+#: brokerage.php:47
+msgid "Non-residents:"
+msgstr "Non résidents :"
+
+#: brokerage.php:49
+msgid ""
+"An atypical profile requiring real financial expertise / We simplify the "
+"steps necessary to obtain a mortgage for non-residents of France and "
+"foreigners with varied profiles from all over the world. // A mainly remote "
+"service so that our customers benefit from the best financing conditions "
+"without having to travel."
+msgstr ""
+"Un profil atypique nécessitant une vraie expertise financière\n"
+"Nous simplifions les étapes nécessaires à l’obtention d’un prêt immobilier "
+"pour les non-résidents français et étrangers aux profils variés venant du "
+"monde entier.\n"
+"\n"
+"Un service majoritairement à distance pour que nos clients bénéficient des "
+"meilleures conditions de financement sans se déplacer."
+
+#: cgp.php:5 cgp.php:24
+msgid "Wealth Management Advising"
+msgstr "Conseil en Gestion de Patrimoine"
+
+#: cgp.php:9
+msgid "Whether you live in France or abroad, my mission is to:"
+msgstr "Que vous habitiez en France ou à l’étranger, ma mission est de :"
+
+#: cgp.php:12
+msgid "Support you"
+msgstr "Vous accompagner"
+
+#: cgp.php:13
+msgid "Advise you"
+msgstr "Vous conseiller"
+
+#: cgp.php:14
+msgid "Offer you the most relevant solutions"
+msgstr "Vous proposer les solutions les plus pertinentes"
+
+#: cgp.php:16
+msgid "in creation, development, securing and transmission of your wealth."
+msgstr ""
+"dans la création, le développement, la sécurisation et la transmission de "
+"votre patrimoine."
+
+#: cgp.php:17
+msgid ""
+"I select with you the solutions adapted for your needs among all the offers "
+"on the market and at the best conditions"
+msgstr ""
+"Je sélectionne avec vous les solutions qui vous correspondent parmi "
+"l'ensemble des offres sur le marché et aux meilleures conditions."
+
+#: cgp.php:34
+msgid "Investments, Financial savings, Advising, Tax reduction, Real estate"
+msgstr ""
+"Investissements, Épargne financière, Conseil, Réduction d'impôts, Immobilier"
+
+#: cgp.php:38
+msgid "My Mission"
+msgstr "Ma Mission"
+
+#: cgp.php:44
+msgid ""
+"Living abroad myself, I intimately know the specifics of the life of non-"
+"residents and expatriates"
+msgstr ""
+"Moi-même domiciliée à l’international, je connais intimement les "
+"spécificités de la vie des non-résidents et des expatriés."
+
+#: cgp.php:47
+msgid ""
+"My job is to take into account your specificities and your personal legal "
+"and tax constraints specific to your expatriate status, to support you in "
+"achieving all your wealth goals, by implementing strategies specifically "
+"made for you and by independently selecting the best investments to achieve "
+"them"
+msgstr ""
+"Mon métier est de prendre en compte vos spécificités et contraintes "
+"personnelles juridiques et fiscales propres à votre statut d’expatrié, afin "
+"de vous accompagner dans la réalisation de tous vos objectifs patrimoniaux "
+"par la mise en place de stratégies sur-mesure et la sélection en toute "
+"indépendance des meilleurs investissements pour les atteindre."
+
+#: errors/err_notfound.php:9
+msgid "Error 404: the page you're trying to access is not here"
+msgstr "Erreur 404: la page à laquelle vous voulez accéder n'est pas ici"
+
+#: errors/err_notfound.php:10
+msgid ""
+"you must have entered the wrong address or the link you employed to come "
+"here isn't valid anymore"
+msgstr ""
+"vous devez avoir entré la mauvaise adresse ou le lien que vous avez utilisé "
+"pour venir ici n'est plus valide"
+
+#: errors/err_notfound.php:11
+msgid "Navigate back to the homepage"
+msgstr "Revenir à la page d'accueil"
+
+#: head.php:2 head.php:10 homepage.php:14 navbar.php:5
 msgid "Wealth Management Advisor"
 msgstr "Conseillère en Gestion de Patrimoine"
 
@@ -67,7 +202,7 @@ msgstr ""
 "finance, Marie-Gaëlle Lefebvre, non-résidents, Clientèle privée, épargne, "
 "investissement, accompagnement"
 
-#: head.php:8 head.php:11
+#: head.php:8 head.php:12
 msgid "website description"
 msgstr ""
 "Marie-Gaëlle Lefebvre est une experte en Courtage, en Gestion de patrimoine "
@@ -90,10 +225,11 @@ msgstr "Coach Financière"
 msgid "Wealth Management"
 msgstr "Gestion de Patrimoine"
 
-#: navbar.php:15
-msgid "Brokerage"
-msgstr "Courtage"
-
 #: navbar.php:16
 msgid "Financial Coaching"
 msgstr "Coaching Financier"
+
+#: reviews.php:19 reviews.php:32 reviews.php:47 reviews.php:63 reviews.php:77
+#: reviews.php:97
+msgid "via LinkedIn"
+msgstr "via LinkedIn"

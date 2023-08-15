@@ -4,7 +4,6 @@
         <link href="./err_styles.css" rel="stylesheet"/>
     </head>
     <body>
-    <div style="color:#000;"><?php var_dump($_SERVER);die;?></div>
         <?php include('../navbar.php');?>
         <div class="error-body">
             <h1 class="error-title"><?= _('Error 404: the page you\'re trying to access is not here');?></h1>
