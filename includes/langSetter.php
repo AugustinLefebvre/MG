@@ -38,6 +38,6 @@ $domain = 'homepage';
 
 putenv("LC_ALL=$lang");
 setlocale(LC_ALL, $locale, 'fr_FR.utf8', '');
-bindtextdomain($domain, "../translations");
+bindtextdomain($domain, "./translations");
 textdomain($domain);
 ?>
