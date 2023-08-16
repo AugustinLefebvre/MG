@@ -5,7 +5,7 @@
             <span class="title-header"> <span class="d-none d-md-inline">- </span><?= _('Wealth Management Advisor');?></span>
         </a>
     </div>
-    <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#nav-list" aria-controls="nav-list" aria-expanded="false" aria-label="Toggle navigation">
+    <button id="navbar-toggler" class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#nav-list" aria-controls="nav-list" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse nav-list-container" id="nav-list">

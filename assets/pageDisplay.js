@@ -59,5 +59,13 @@ $(document).ready(() => {
             window.location.href = '../'+lang+'/';
         }
     });
+
+    $('body').on('click', function (e) {
+        target = $(e.target);
+        // close the navbar if its displayed and if the click is on a non navbar element.
+        if ($('#nav-list').hasClass('show') && target.parents('.navbar').length == 0) {
+            $('.navbar-toggler').click();
+        }
+    })
 });
 
