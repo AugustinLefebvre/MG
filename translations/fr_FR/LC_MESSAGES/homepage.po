@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-08-15 18:09+0200\n"
-"PO-Revision-Date: 2023-08-16 19:01+0200\n"
+"POT-Creation-Date: 2023-08-16 19:20+0200\n"
+"PO-Revision-Date: 2023-08-16 19:20+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -13,30 +13,46 @@ msgstr ""
 "X-Poedit-Basepath: ../../..\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: aboutme.php:5
+#: errors/err_notfound.php:11
+msgid "Error 404: the page you're trying to access is not here"
+msgstr "Erreur 404: la page à laquelle vous voulez accéder n'est pas ici"
+
+#: errors/err_notfound.php:12
+msgid ""
+"you must have entered the wrong address or the link you employed to come "
+"here isn't valid anymore"
+msgstr ""
+"vous devez avoir entré la mauvaise adresse ou le lien que vous avez utilisé "
+"pour venir ici n'est plus valide"
+
+#: errors/err_notfound.php:13
+msgid "Navigate back to the homepage"
+msgstr "Revenir à la page d'accueil"
+
+#: includes/aboutme.php:5
 msgid "Master Degree in Wealth Management"
 msgstr "Master en Gestion de Patrimoine"
 
-#: aboutme.php:9
+#: includes/aboutme.php:9
 msgid "AMF Certificate"
 msgstr "Certification AMF"
 
-#: aboutme.php:9
+#: includes/aboutme.php:9
 msgid "(Financial Markets Authority)"
 msgstr "(Autorité des Marchés Financiers)"
 
-#: aboutme.php:17 navbar.php:13
+#: includes/aboutme.php:17 includes/navbar.php:13
 msgid "who-am-i"
 msgstr "Qui suis-je ?"
 
-#: aboutme.php:19
+#: includes/aboutme.php:19
 msgid "WAI-accroche-1"
 msgstr ""
 "Nous avons tous des rêves, notre vie est guidée par cette quête. Le facteur "
 "principalement cité dans la réalisation du rêve est l’argent. Pas forcément "
 "son manque mais la stratégie financière pour l’atteindre."
 
-#: aboutme.php:22
+#: includes/aboutme.php:22
 msgid "WAI-accroche-2"
 msgstr ""
 "Dotée de plusieurs années d’expériences bancaires, je suis aujourd’hui "
@@ -45,22 +61,22 @@ msgstr ""
 "pour les aider dans la mise en place de stratégies pour l’accomplissement de "
 "leurs projets."
 
-#: aboutme.php:25
+#: includes/aboutme.php:25
 msgid "WAI-accroche-3"
 msgstr ""
 "Globe trotteuse, passionnée de rencontres, d’écologie, de startups "
 "révolutionnaires et engagées, d'innovations financières. <br/>\n"
 "Ma mission: développer la culture financière de chacun."
 
-#: aboutme.php:32
+#: includes/aboutme.php:32
 msgid "WAI-video-title"
 msgstr "Présentation de Marie-Gaëlle Lefebvre"
 
-#: brokerage.php:5 navbar.php:15
+#: includes/brokerage.php:5 includes/navbar.php:15
 msgid "Brokerage"
 msgstr "Courtage"
 
-#: brokerage.php:10
+#: includes/brokerage.php:10
 msgid ""
 "Specialist in wealth advising and non-residents, I support you in your "
 "financing search."
@@ -68,11 +84,11 @@ msgstr ""
 "Spécialiste de clientèle patrimoniale et en non-résidents, je vous "
 "accompagne dans la recherche de votre financement."
 
-#: brokerage.php:17
+#: includes/brokerage.php:17
 msgid "Private clientele:"
 msgstr "Clientèle privée :"
 
-#: brokerage.php:19
+#: includes/brokerage.php:19
 msgid ""
 "My specialized financial skills and my understanding of the environment of "
 "each borrower allow me to structure financing adapted to the multitude of "
@@ -86,15 +102,15 @@ msgstr ""
 "Mes diverses années en banque m’ont également permise d’avoir cette approche "
 "d’ensemble et de connaître le métier dans sa globalité."
 
-#: brokerage.php:31
+#: includes/brokerage.php:31
 msgid "brokerage presentation"
 msgstr "présentation courtage"
 
-#: brokerage.php:44
+#: includes/brokerage.php:44
 msgid "Non-residents:"
 msgstr "Non résidents :"
 
-#: brokerage.php:46
+#: includes/brokerage.php:46
 msgid ""
 "An atypical profile requiring real financial expertise / We simplify the "
 "steps necessary to obtain a mortgage for non-residents of France and "
@@ -110,33 +126,33 @@ msgstr ""
 "Un service majoritairement à distance pour que nos clients bénéficient des "
 "meilleures conditions de financement sans se déplacer."
 
-#: cgp.php:5 cgp.php:24
+#: includes/cgp.php:5 includes/cgp.php:24
 msgid "Wealth Management Advising"
 msgstr "Conseil en Gestion de Patrimoine"
 
-#: cgp.php:9
+#: includes/cgp.php:9
 msgid "Whether you live in France or abroad, my mission is to:"
 msgstr "Que vous habitiez en France ou à l’étranger, ma mission est de :"
 
-#: cgp.php:12
+#: includes/cgp.php:12
 msgid "Support you"
 msgstr "Vous accompagner"
 
-#: cgp.php:13
+#: includes/cgp.php:13
 msgid "Advise you"
 msgstr "Vous conseiller"
 
-#: cgp.php:14
+#: includes/cgp.php:14
 msgid "Offer you the most relevant solutions"
 msgstr "Vous proposer les solutions les plus pertinentes"
 
-#: cgp.php:16
+#: includes/cgp.php:16
 msgid "in creation, development, securing and transmission of your wealth."
 msgstr ""
 "dans la création, le développement, la sécurisation et la transmission de "
 "votre patrimoine."
 
-#: cgp.php:17
+#: includes/cgp.php:17
 msgid ""
 "I select with you the solutions adapted for your needs among all the offers "
 "on the market and at the best conditions"
@@ -144,16 +160,16 @@ msgstr ""
 "Je sélectionne avec vous les solutions qui vous correspondent parmi "
 "l'ensemble des offres sur le marché et aux meilleures conditions."
 
-#: cgp.php:34
+#: includes/cgp.php:34
 msgid "Investments, Financial savings, Advising, Tax reduction, Real estate"
 msgstr ""
 "Investissements, Épargne financière, Conseil, Réduction d'impôts, Immobilier"
 
-#: cgp.php:38
+#: includes/cgp.php:38
 msgid "My Mission"
 msgstr "Ma Mission"
 
-#: cgp.php:44
+#: includes/cgp.php:44
 msgid ""
 "Living abroad myself, I intimately know the specifics of the life of non-"
 "residents and expatriates"
@@ -161,7 +177,7 @@ msgstr ""
 "Moi-même domiciliée à l’international, je connais intimement les "
 "spécificités de la vie des non-résidents et des expatriés."
 
-#: cgp.php:47
+#: includes/cgp.php:47
 msgid ""
 "My job is to take into account your specificities and your personal legal "
 "and tax constraints specific to your expatriate status, to support you in "
@@ -175,11 +191,11 @@ msgstr ""
 "par la mise en place de stratégies sur-mesure et la sélection en toute "
 "indépendance des meilleurs investissements pour les atteindre."
 
-#: coaching.php:4 navbar.php:16
+#: includes/coaching.php:4 includes/navbar.php:16
 msgid "Financial Coaching"
 msgstr "Coaching Financier"
 
-#: coaching.php:8
+#: includes/coaching.php:8
 msgid ""
 "In a context of increasing complexity and technicality of the economy and of "
 "the financial sector, everyone needs information and everyone has a right to "
@@ -188,7 +204,7 @@ msgstr ""
 "Dans un contexte de complexité et de technicité croissante de l’économie et "
 "du secteur financier, chacun a besoin d’informations et chacun y a droit."
 
-#: coaching.php:12
+#: includes/coaching.php:11
 msgid ""
 "A good mastery of basic knowledge in economic, budgetary and financial "
 "matters is a citizen issue and an asset for everyone. It is not a question "
@@ -200,11 +216,15 @@ msgstr ""
 "s’agit pas de rendre chacun expert, il s’agit de mieux comprendre pour mieux "
 "décider."
 
-#: coaching.php:20
+#: includes/coaching.php:16
+msgid "Scientia potentia"
+msgstr "Scientia potentia"
+
+#: includes/coaching.php:18
 msgid "Knowledge is power"
 msgstr "Le savoir c’est le pouvoir"
 
-#: coaching.php:27
+#: includes/coaching.php:25
 msgid ""
 "of French people feel that they do not have sufficiently reliable and "
 "neutral information to manage their budget effectively."
@@ -212,16 +232,16 @@ msgstr ""
 "des Français ont le sentiment de ne pas disposer d'informations suffisamment "
 "fiables et neutres pour gérer efficacement leur budget."
 
-#: coaching.php:32
+#: includes/coaching.php:30
 msgid "consider their knowledge average or low on financial issues"
 msgstr ""
 "jugent leurs connaissances moyennes ou faibles sur les questions financières"
 
-#: coaching.php:37
+#: includes/coaching.php:34
 msgid "consider that financial education is necessary at school."
 msgstr "considèrent qu'une éducation financière est nécessaire à l'école."
 
-#: coaching.php:44
+#: includes/coaching.php:40
 msgid ""
 "My active listening of the problems of my clients and my personal entourage "
 "made me realize that whatever the background:"
@@ -229,7 +249,7 @@ msgstr ""
 "Mon écoute active des problématiques de mes clients et mon entourage "
 "personnel m’ont fait prendre conscience que quelque soit son parcours:"
 
-#: coaching.php:48
+#: includes/coaching.php:43
 msgid ""
 "the lack of financial culture and the lack of knowledge of the basics of "
 "money sometimes lead to dangerous decisions on a heritage."
@@ -237,7 +257,7 @@ msgstr ""
 "le manque de culture financière et le manque de connaissances sur les bases "
 "de l’argent font prendre des décisions parfois dangereuses sur un patrimoine."
 
-#: coaching.php:53
+#: includes/coaching.php:47
 msgid ""
 "It is in front of this real need for knowledge on money management, that I "
 "launched out in the coaching."
@@ -245,77 +265,62 @@ msgstr ""
 "C’est devant ce réel besoin de connaissances sur la gestion de l'argent, que "
 "je me suis lancée dans le coaching."
 
-#: errors/err_notfound.php:9
-msgid "Error 404: the page you're trying to access is not here"
-msgstr "Erreur 404: la page à laquelle vous voulez accéder n'est pas ici"
-
-#: errors/err_notfound.php:10
-msgid ""
-"you must have entered the wrong address or the link you employed to come "
-"here isn't valid anymore"
-msgstr ""
-"vous devez avoir entré la mauvaise adresse ou le lien que vous avez utilisé "
-"pour venir ici n'est plus valide"
-
-#: errors/err_notfound.php:11
-msgid "Navigate back to the homepage"
-msgstr "Revenir à la page d'accueil"
-
-#: footer.php:3 homepage.php:4
+#: includes/footer.php:3 includes/homepage.php:4
 msgid "Contact Me : "
 msgstr "Contactez Moi : "
 
-#: footer.php:8
+#: includes/footer.php:8
 msgid "Phone:"
 msgstr "Téléphone: "
 
-#: footer.php:10
+#: includes/footer.php:10
 msgid "or"
 msgstr "ou "
 
-#: footer.php:15
+#: includes/footer.php:15
 msgid "Whatsapp:"
 msgstr "Whatsapp: "
 
-#: footer.php:20
+#: includes/footer.php:20
 msgid "Email:"
 msgstr "Email : "
 
-#: footer.php:29
+#: includes/footer.php:35
 msgid "Legal notice"
 msgstr "Mentions Légales"
 
-#: head.php:2 head.php:10 homepage.php:14 navbar.php:5
+#: includes/head.php:2 includes/head.php:10 includes/homepage.php:14
+#: includes/navbar.php:5
 msgid "Wealth Management Advisor"
 msgstr "Conseillère en Gestion de Patrimoine"
 
-#: head.php:7
+#: includes/head.php:7
 msgid "website keywords"
 msgstr ""
 "Conseil, Gestion de patrimoine, Coaching financier, Courtage, Courtier, "
 "finance, Marie-Gaëlle Lefebvre, non-résidents, Clientèle privée, épargne, "
 "investissement, accompagnement"
 
-#: head.php:8 head.php:12
+#: includes/head.php:8 includes/head.php:12
 msgid "website description"
 msgstr ""
 "Marie-Gaëlle Lefebvre est une experte en Courtage, en Gestion de patrimoine "
 "et Coach, retrouvez ici tous les services qu'elle propose ainsi que ses "
 "coordonnées pour la contacter directement"
 
-#: homepage.php:17
+#: includes/homepage.php:17
 msgid "Financial Broker"
 msgstr "Courtière en Financement"
 
-#: homepage.php:20
+#: includes/homepage.php:20
 msgid "Financial Coach"
 msgstr "Coach Financière"
 
-#: navbar.php:14
+#: includes/navbar.php:14
 msgid "Wealth Management"
 msgstr "Gestion de Patrimoine"
 
-#: reviews.php:19 reviews.php:32 reviews.php:47 reviews.php:63 reviews.php:77
-#: reviews.php:97
+#: includes/reviews.php:19 includes/reviews.php:32 includes/reviews.php:47
+#: includes/reviews.php:63 includes/reviews.php:77 includes/reviews.php:97
 msgid "via LinkedIn"
 msgstr "via LinkedIn"

@@ -13,7 +13,7 @@
         
     </div>
     <div class="col-lg-4 col-md-12">
-        <h5 class="why-sidetext o-text scient-top">Scientia potentia</h5>
+        <h5 class="why-sidetext o-text scient-top"><?= _('Scientia potentia');?></h5>
         <div class="h-line-small"></div>
         <h5 class="why-sidetext o-text scient-bottom"><?= _('Knowledge is power');?></h5>
     </div>
