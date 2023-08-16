@@ -27,7 +27,7 @@
     <div class="col-lg-6 col-md-12">
         <iframe
             class="video-embed video-embed-courting"
-            src="https://www.youtube.com/embed/2B7MAkquFUo"
+            src="https://www.youtube.com/embed/2B7MAkquFUo?&origin=https://mglefebvre.com"
             title="<?= _('brokerage presentation');?>"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

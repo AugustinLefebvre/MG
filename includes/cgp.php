@@ -20,7 +20,7 @@
     <div class="col-lg-6 col-md-12">
         <iframe
             class="video-embed video-embed-cgp"
-            src="https://www.youtube.com/embed/aAABIQWj5Bk"
+            src="https://www.youtube.com/embed/aAABIQWj5Bk?&origin=https://mglefebvre.com"
             title="<?= _('Wealth Management Advising');?>Conseil en gestion de patrimoine"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

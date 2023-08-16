@@ -49,17 +49,6 @@ $(document).ready(() => {
         $(e).css('margin', vMargins + 'px ' + hMargins + 'px')
     });
 
-    $('.lang-selection-item').on('click', function(e) {
-        lang = $(this).val();
-        selectElem = $(this).parent();
-        // redirects the user to the corresponding language
-        if (selectElem.hasClass('fr-selected') && lang !== 'fr') {
-            window.location.href = '../' + lang + '/';
-        } else if(selectElem.hasClass('en-selected') && lang !== 'en') {
-            window.location.href = '../'+lang+'/';
-        }
-    });
-
     $('body').on('click', function (e) {
         target = $(e.target);
         // close the navbar if its displayed and if the click is on a non navbar element.

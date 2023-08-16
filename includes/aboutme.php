@@ -28,7 +28,7 @@
     <div class="video-right col-lg-7 col-md-12">
         <iframe
             class="video-embed video-mg-pres"
-            src="https://www.youtube.com/embed/r6kHiEVDCBc"
+            src="https://www.youtube.com/embed/r6kHiEVDCBc?&autoplay=1&origin=https://mglefebvre.com"
             title="<?= _('WAI-video-title');?>"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
