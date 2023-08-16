@@ -1,11 +1,11 @@
 <!-- début certifs  -->
 <div id="certif" class="certifications row">
     <div class="col-sm-12 col-lg-6">
-        <img class="certif-icon" src="./assets/logocertif.png" alt="img certif master GdP"/>
+        <img class="certif-icon" src="../assets/logocertif.png" alt="img certif master GdP"/>
         <div class="certif-text one-line"><?= _('Master Degree in Wealth Management');?></div>
     </div>
     <div class="col-sm-12 col-lg-6">
-        <img class="certif-icon" src="./assets/logocertif.png" alt="img certif AMF"/>
+        <img class="certif-icon" src="../assets/logocertif.png" alt="img certif AMF"/>
         <div class="certif-text two-lines"><?= _('AMF Certificate');?><br/><?= _('(Financial Markets Authority)');?></div>
     </div>
 </div>

@@ -31,7 +31,7 @@
 </div>
 <div id="section-CGP-2" class="other-section row gx-0">
     <div class="col-lg-4 col-md-12 CGP-keywords o-text">
-        <img class ="keywords-schema" width="482px" height="436px" src="./assets/schema.png" alt="<?= _('Investments, Financial savings, Advising, Tax reduction, Real estate');?>">
+        <img class ="keywords-schema" width="482px" height="436px" src="../assets/schema.png" alt="<?= _('Investments, Financial savings, Advising, Tax reduction, Real estate');?>">
     </div>
     <div class="col-lg-8 col-md-12 other-desc CGP-desc-2 row">
         <div class="col-12 title-cgp-2">
@@ -48,7 +48,7 @@
             </div>
         </div>
         <div class="col-xl-5 col-lg-12">
-            <img class="illu-CGP" src="./assets/portrait.jpg" alt="Marie gaelle Lefebvre, Portrait">
+            <img class="illu-CGP" src="../assets/portrait.jpg" alt="Marie gaelle Lefebvre, Portrait">
         </div>
     </div>
 </div>

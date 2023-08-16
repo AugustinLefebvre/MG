@@ -10,7 +10,7 @@
             <?= _('Specialist in wealth advising and non-residents, I support you in your financing search.');?>
         </div>
         <div class="col-lg-7 col-md-12 illu-courtage-cont">
-            <img class="illu-courtage" src="./assets/carte-logo.png" alt="logo carte financement">
+            <img class="illu-courtage" src="../assets/carte-logo.png" alt="logo carte financement">
         </div>
         <div class="exp-section-content col-12">
             <div class="h-line-small"></div>

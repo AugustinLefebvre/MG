@@ -25,7 +25,13 @@
             </li>
         </ul>
     </div>
-    <div class="col-lg-6 col-md-12">
-        <a class="legal-info-link" href="./legalnotice.php"><?= _('Legal notice');?></a>
+    <div class="col-lg-6 col-md-12 footer-right">
+        <div class="select-parent">
+            <select class="lang-selection-dropdown <?= ($lang=='fr') ? 'fr-selected': 'en-selected';?>" name="lang" id="lang-selection">
+                <option <?= ($lang=='fr') ? 'selected="true"': '';?> value="fr" class="lang-selection-item">🇫🇷 Francais</option>
+                <option <?= ($lang=='en') ? 'selected="true"': '';?> value="en" class="lang-selection-item">🇬🇧 English</option>
+            </select>
+        </div>
+        <a class="legal-info-link" href="../legalnotice.php"><?= _('Legal notice');?></a>
     </div>
 </div>

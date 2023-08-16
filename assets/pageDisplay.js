@@ -48,5 +48,16 @@ $(document).ready(() => {
         let hMargins = (pWidth - vWidth) / 2;
         $(e).css('margin', vMargins + 'px ' + hMargins + 'px')
     });
+
+    $('.lang-selection-item').on('click', function(e) {
+        lang = $(this).val();
+        selectElem = $(this).parent();
+        // redirects the user to the corresponding language
+        if (selectElem.hasClass('fr-selected') && lang !== 'fr') {
+            window.location.href = '../' + lang + '/';
+        } else if(selectElem.hasClass('en-selected') && lang !== 'en') {
+            window.location.href = '../'+lang+'/';
+        }
+    });
 });
 
