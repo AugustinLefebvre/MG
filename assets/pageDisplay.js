@@ -48,5 +48,13 @@ $(document).ready(() => {
         let hMargins = (pWidth - vWidth) / 2;
         $(e).css('margin', vMargins + 'px ' + hMargins + 'px')
     });
+
+    $('body').on('click', function (e) {
+        target = $(e.target);
+        // close the navbar if its displayed and if the click is on a non navbar element.
+        if ($('#nav-list').hasClass('show') && target.parents('.navbar').length == 0) {
+            $('.navbar-toggler').click();
+        }
+    })
 });
 

@@ -1,0 +1,228 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-08-16 19:20+0200\n"
+"PO-Revision-Date: 2023-08-06 18:57+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: errors/err_notfound.php:11
+msgid "Error 404: the page you're trying to access is not here"
+msgstr ""
+
+#: errors/err_notfound.php:12
+msgid "you must have entered the wrong address or the link you employed to come here isn't valid anymore"
+msgstr ""
+
+#: errors/err_notfound.php:13
+msgid "Navigate back to the homepage"
+msgstr ""
+
+#: includes/aboutme.php:5
+msgid "Master Degree in Wealth Management"
+msgstr ""
+
+#: includes/aboutme.php:9
+msgid "AMF Certificate"
+msgstr ""
+
+#: includes/aboutme.php:9
+msgid "(Financial Markets Authority)"
+msgstr ""
+
+#: includes/aboutme.php:17 includes/navbar.php:13
+msgid "who-am-i"
+msgstr ""
+
+#: includes/aboutme.php:19
+msgid "WAI-accroche-1"
+msgstr ""
+
+#: includes/aboutme.php:22
+msgid "WAI-accroche-2"
+msgstr ""
+
+#: includes/aboutme.php:25
+msgid "WAI-accroche-3"
+msgstr ""
+
+#: includes/aboutme.php:32
+msgid "WAI-video-title"
+msgstr ""
+
+#: includes/brokerage.php:5 includes/navbar.php:15
+msgid "Brokerage"
+msgstr ""
+
+#: includes/brokerage.php:10
+msgid "Specialist in wealth advising and non-residents, I support you in your financing search."
+msgstr ""
+
+#: includes/brokerage.php:17
+msgid "Private clientele:"
+msgstr ""
+
+#: includes/brokerage.php:19
+msgid "My specialized financial skills and my understanding of the environment of each borrower allow me to structure financing adapted to the multitude of heritage projects of my private clients./My various years in the bank have also allowed me to have this overall approach and to know the business as a whole."
+msgstr ""
+
+#: includes/brokerage.php:31
+msgid "brokerage presentation"
+msgstr ""
+
+#: includes/brokerage.php:44
+msgid "Non-residents:"
+msgstr ""
+
+#: includes/brokerage.php:46
+msgid "An atypical profile requiring real financial expertise / We simplify the steps necessary to obtain a mortgage for non-residents of France and foreigners with varied profiles from all over the world. // A mainly remote service so that our customers benefit from the best financing conditions without having to travel."
+msgstr ""
+
+#: includes/cgp.php:5 includes/cgp.php:24
+msgid "Wealth Management Advising"
+msgstr ""
+
+#: includes/cgp.php:9
+msgid "Whether you live in France or abroad, my mission is to:"
+msgstr ""
+
+#: includes/cgp.php:12
+msgid "Support you"
+msgstr ""
+
+#: includes/cgp.php:13
+msgid "Advise you"
+msgstr ""
+
+#: includes/cgp.php:14
+msgid "Offer you the most relevant solutions"
+msgstr ""
+
+#: includes/cgp.php:16
+msgid "in creation, development, securing and transmission of your wealth."
+msgstr ""
+
+#: includes/cgp.php:17
+msgid "I select with you the solutions adapted for your needs among all the offers on the market and at the best conditions"
+msgstr ""
+
+#: includes/cgp.php:34
+msgid "Investments, Financial savings, Advising, Tax reduction, Real estate"
+msgstr ""
+
+#: includes/cgp.php:38
+msgid "My Mission"
+msgstr ""
+
+#: includes/cgp.php:44
+msgid "Living abroad myself, I intimately know the specifics of the life of non-residents and expatriates"
+msgstr ""
+
+#: includes/cgp.php:47
+msgid "My job is to take into account your specificities and your personal legal and tax constraints specific to your expatriate status, to support you in achieving all your wealth goals, by implementing strategies specifically made for you and by independently selecting the best investments to achieve them"
+msgstr ""
+
+#: includes/coaching.php:4 includes/navbar.php:16
+msgid "Financial Coaching"
+msgstr ""
+
+#: includes/coaching.php:8
+msgid "In a context of increasing complexity and technicality of the economy and of the financial sector, everyone needs information and everyone has a right to it."
+msgstr ""
+
+#: includes/coaching.php:11
+msgid "A good mastery of basic knowledge in economic, budgetary and financial matters is a citizen issue and an asset for everyone. It is not a question of making everyone an expert, it is a question of understanding better in order to decide better."
+msgstr ""
+
+#: includes/coaching.php:16
+msgid "Scientia potentia"
+msgstr ""
+
+#: includes/coaching.php:18
+msgid "Knowledge is power"
+msgstr ""
+
+#: includes/coaching.php:25
+msgid "of French people feel that they do not have sufficiently reliable and neutral information to manage their budget effectively."
+msgstr ""
+
+#: includes/coaching.php:30
+msgid "consider their knowledge average or low on financial issues"
+msgstr ""
+
+#: includes/coaching.php:34
+msgid "consider that financial education is necessary at school."
+msgstr ""
+
+#: includes/coaching.php:40
+msgid "My active listening of the problems of my clients and my personal entourage made me realize that whatever the background:"
+msgstr ""
+
+#: includes/coaching.php:43
+msgid "the lack of financial culture and the lack of knowledge of the basics of money sometimes lead to dangerous decisions on a heritage."
+msgstr ""
+
+#: includes/coaching.php:47
+msgid "It is in front of this real need for knowledge on money management, that I launched out in the coaching."
+msgstr ""
+
+#: includes/footer.php:3 includes/homepage.php:4
+msgid "Contact Me : "
+msgstr ""
+
+#: includes/footer.php:8
+msgid "Phone:"
+msgstr ""
+
+#: includes/footer.php:10
+msgid "or"
+msgstr ""
+
+#: includes/footer.php:15
+msgid "Whatsapp:"
+msgstr ""
+
+#: includes/footer.php:20
+msgid "Email:"
+msgstr ""
+
+#: includes/footer.php:35
+msgid "Legal notice"
+msgstr ""
+
+#: includes/head.php:2 includes/head.php:10 includes/homepage.php:14
+#: includes/navbar.php:5
+msgid "Wealth Management Advisor"
+msgstr ""
+
+#: includes/head.php:7
+msgid "website keywords"
+msgstr ""
+
+#: includes/head.php:8 includes/head.php:12
+msgid "website description"
+msgstr ""
+
+#: includes/homepage.php:17
+msgid "Financial Broker"
+msgstr ""
+
+#: includes/homepage.php:20
+msgid "Financial Coach"
+msgstr ""
+
+#: includes/navbar.php:14
+msgid "Wealth Management"
+msgstr ""
+
+#: includes/reviews.php:19 includes/reviews.php:32 includes/reviews.php:47
+#: includes/reviews.php:63 includes/reviews.php:77 includes/reviews.php:97
+msgid "via LinkedIn"
+msgstr ""

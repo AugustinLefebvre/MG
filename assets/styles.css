@@ -81,7 +81,7 @@ h3 {
     min-height: 70px;
     width: 100%;
     z-index: 999999;
-    border-bottom: #da5d13 2px solid;
+    border-bottom: 2px solid #da5d13;
     color: #FFF;
 }
 
@@ -138,7 +138,7 @@ h3 {
 
 /* frontpage */
 .top-element {
-    background-image: url("./assets/MGmeeting2.jpg");
+    background-image: url("./MGmeeting2.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -157,7 +157,7 @@ h3 {
     width: 30%;
     min-height: 300px;
     height: 100%;
-    border-right: solid #FFF 50px;
+    border-right: 50px solid #FFF;
     box-shadow: -200px 0 50px white;
 }
 
@@ -168,7 +168,6 @@ h3 {
     width: 60%;
     min-height: 300px;
     height: 100%;
-    /* margin: 150px 30px 0; */
     padding: 150px 150px 0;
     font-size: 18px;
     font-weight: bold;
@@ -503,10 +502,25 @@ h3 {
     margin-right: 0;
 }
 
+.lang-selection-dropdown {
+    background-color: #021630;
+    border-color: #FFF;
+    border-radius: 3px;
+    color: #FFF;
+    padding: 5px 10px;
+    position: absolute;
+    right: 20px;
+    bottom: 74px;
+}
+
 .legal-info-link {
     position: absolute;
     right: 20px;
-    bottom: 20px;
+    bottom: 40px;
+}
+
+.contact-list {
+    margin-bottom: 20px;
 }
 
 .contact-list li {
@@ -515,6 +529,10 @@ h3 {
 
 .legal-info {
     color:#000;
+}
+
+.footer-right {
+    min-height: 80px;
 }
 
 /* LG+ size */
@@ -752,4 +770,3 @@ h3 {
         margin: 15px 0 0;
     }
 }
-
