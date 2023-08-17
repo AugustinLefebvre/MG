@@ -166,7 +166,7 @@ h3 {
     right: 0;
     top: 0;
     width: 60%;
-    min-height: 200px;
+    min-height: 300px;
     height: 100%;
     padding: 150px 150px 0;
     font-size: 18px;
@@ -768,11 +768,5 @@ h3 {
 
     .review-content {
         margin: 15px 0 0;
-    }
-}
-
-@media  (max-height: 767px) {
-    .top-element {
-        min-height: 500px;
     }
 }
