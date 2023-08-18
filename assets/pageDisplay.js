@@ -59,7 +59,7 @@ $(() => {
             observer.observe(elem);
         });
     } else {
-        observer = new IntersectionObserver(videoAnimate, {threshold: [0.3, 0.4, 0.5, 0.6, 0.7]});
+        observer = new IntersectionObserver(videoAnimate, {threshold: 0.3});
         videoElem.forEach(elem => {
             observer.observe(elem);
         });
@@ -72,18 +72,20 @@ function videoAnimate(videoArray) {
         if ($(element.target).hasClass('video-mg-pres') && !element.isIntersecting) {
             $(element.target).css('height', '480px');
             $(element.target).css('width', '720px');
-            setVideoMargins(element.target, false);
+            // wait for the width change animation to finish
+            setTimeout(() => {
+                setVideoMargins(element.target, false);
+            }, 400);
         } else if ($(element.target).hasClass('WAI-right')) {
             let video = $(element.target).find('.video-mg-pres');
             if (element.intersectionRatio > 0.3) {
                 // get basic video dimensions and parent dimensions
                 let ogWidth = 720;
                 let ogHeight = 480;
-                let targetWidth = $(element.target).width();
+                let parentWidth = $(element.target).width();
                 let parentHeight = $(element.target).height();
-                let addedWidth = ((targetWidth-ogWidth)*element.intersectionRatio);
-                let dynWidth = addedWidth + ogWidth - 20;
-                let dynHeight = (addedWidth*9/16) + ogHeight - 20;
+                let dynWidth =  Math.floor(parentWidth - 40);
+                let dynHeight =  Math.floor((dynWidth*9/16) - 40);
                 // unset max width to prevent blocking
                 if ($(video).css('max-width') !== '99%') {
                     $(video).css('max-width', '99%');
@@ -97,8 +99,9 @@ function videoAnimate(videoArray) {
                 } else {
                     $(video).css('height', dynHeight+'px');
                 }
+                $(video).css('margin-left', '20px');
+                $(video).css('margin-right', '20px');
             }
-            setVideoMargins(video, false);
         }
     });
 }

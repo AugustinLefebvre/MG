@@ -269,9 +269,8 @@ h3 {
     height: 480px;
     width:854px;
     background-color: #000;
-    transition: margin 300ms;
-    transition: width 300ms;
-    transition: height 300ms;
+    transition: all 400ms;
+    transition-property: margin, width;
 }
 
 .video-left {
