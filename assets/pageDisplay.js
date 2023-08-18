@@ -3,7 +3,7 @@ function decryptContact(code, contact = "mailto:") {
     window.location.href = contact + address;
 }
 
-$(document).ready(() => {
+$(() => {
     // contact info parser
     $('#mg-contact-info').append(atob('bWcubGVmZWJ2cmVAdmlhLWFwLmNvbQ'));
     $('#mg-contact-info-wa').append(atob('KzQ0IDcgOTIyIDkyMyAwOTA'));
@@ -37,16 +37,7 @@ $(document).ready(() => {
 
     // videos margin setter
     $('.video-embed').each((i, e) => {
-        let pHeight = $(e).parent().height();
-        let vHeight = $(e).height();
-        let pWidth = $(e).parent().width();
-        let vWidth = $(e).width();
-        let vMargins = (pHeight - vHeight) / 2;
-        if (vMargins < 20) {
-            vMargins = 20;
-        }
-        let hMargins = (pWidth - vWidth) / 2;
-        $(e).css('margin', vMargins + 'px ' + hMargins + 'px')
+        setVideoMargins(e);
     });
 
     $('body').on('click', function (e) {
@@ -55,6 +46,83 @@ $(document).ready(() => {
         if ($('#nav-list').hasClass('show') && target.parents('.navbar').length == 0) {
             $('.navbar-toggler').click();
         }
-    })
+    });
+
+    const videoElem = [
+        document.querySelector('.video-mg-pres'),
+        document.querySelector('.WAI-right'),
+        document.querySelector('.WAI-left')
+    ]
+    observer = new IntersectionObserver(videoAnimate, {threshold: [0.3, 0.7]})
+    videoElem.forEach(elem => {
+        observer.observe(elem);
+    });
 });
 
+
+function videoAnimate(videoArray) {
+    videoArray.forEach(element => {
+        if ($(element.target).hasClass('video-mg-pres') && !element.isIntersecting) {
+            $(element.target).css('height', '480px');
+            if (window.matchMedia("(max-width: 480px)").matches) {
+                $(element.target).css('width', '480px');
+            } else {
+                $(element.target).css('width', '720px');
+            }
+            setVideoMargins(element.target, false);
+        } else if ($(element.target).hasClass('WAI-right')) {
+            let video = $(element.target).find('.video-mg-pres')
+            if (element.intersectionRatio > 0.3) {
+                // get basic video dimensions and parent dimensions
+                let ogWidth = 720;
+                if (window.matchMedia("(max-width: 480px)").matches) {
+                    ogWidth = 480;
+                }
+                
+                let ogHeight = 480;
+                let targetWidth = $(element.target).width();
+                let parentHeight = $(element.target).height();
+                let addedWidth = ((targetWidth-ogWidth)*element.intersectionRatio);
+                let dynWidth = addedWidth + ogWidth - 20;
+                let dynHeight = (addedWidth*9/16) + ogHeight - 20;
+                // unset max width to prevent blocking
+                if ($(video).css('max-width') !== '99%') {
+                    $(video).css('max-width', '99%');
+                }
+                // set width to video based on ratio with intersection
+                $(video).css('width', dynWidth+'px');
+        
+                // set height to video based on ratio with intersection and if height isn't too big
+                if (parentHeight <= dynHeight) {
+                    $(video).css('height', parentHeight+'px');
+                } else {
+                    $(video).css('height', dynHeight+'px');
+                }
+            }
+            setVideoMargins(video, false);
+        } else if ($(element.target).hasClass('WAI-left')) {
+            setVideoMargins($(element.target).parent().find('.video-mg-pres'), false);
+        }
+    });
+}
+
+function setVideoMargins(e, resizeHeight = true) {
+    let pHeight = $(e).parent().height();
+    let vHeight = $(e).height();
+    let pWidth = $(e).parent().width();
+    let vWidth = $(e).width();
+    let vMargins = Math.floor((pHeight - vHeight) / 2);
+    let hMargins = Math.floor((pWidth - vWidth) / 2);
+    if (!resizeHeight) {
+        $(e).css('margin-left', hMargins + 'px');
+        $(e).css('margin-right', hMargins + 'px');
+    } else {
+        if (vMargins < 20) {
+            vMargins = 20;
+        }
+        
+        $(e).css('margin', vMargins + 'px ' + hMargins + 'px');
+    }
+    
+    
+}

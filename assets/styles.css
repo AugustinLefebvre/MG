@@ -266,10 +266,12 @@ h3 {
 }
 
 .video-mg-pres {
-    margin: 20px 11%;
     height: 480px;
     width:854px;
     background-color: #000;
+    transition: margin 300ms;
+    transition: width 300ms;
+    transition: height 300ms;
 }
 
 .video-left {
