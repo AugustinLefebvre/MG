@@ -34,11 +34,6 @@
         <img class ="keywords-schema" width="482px" height="436px" src="../assets/schema.png" alt="<?= _('Investments, Financial savings, Advising, Tax reduction, Real estate');?>">
     </div>
     <div class="col-lg-8 col-md-12 other-desc CGP-desc-2 row">
-        <div class="col-12 title-cgp-2">
-            <h4><?= _('My Mission');?></h4>
-            <div class="h-line"></div>
-            <br/>
-        </div>
         <div class="CGP-perso-text col-xl-7 col-lg-12 row">
             <div class="col-12 o-text">
                 <?= _('Living abroad myself, I intimately know the specifics of the life of non-residents and expatriates');?>

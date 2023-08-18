@@ -100,10 +100,10 @@ function videoAnimate(videoArray) {
                     $(video).css('height', dynHeight - 20 +'px');
                 }
                 vMargin =  (parentHeight - dynHeight) / 2;
-                $(video).css('margin-left', '20px');
-                $(video).css('margin-right', '20px');
-                $(video).css('margin-top', vMargin + 'px');
-                $(video).css('margin-bottom', vMargin + 'px');
+                if (vMargin < 0) {
+                    vMargin = 10;
+                }
+                $(video).css('margin', vMargin + 'px 20px');
             }
         }
     });
