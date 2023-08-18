@@ -703,6 +703,10 @@ h3 {
     .review-content {
         margin: 15px 0 0;
     }
+
+    .video-mg-pres {
+        transition: margin 300ms;
+    }
 }
 
 /* phone */
@@ -770,5 +774,9 @@ h3 {
 
     .review-content {
         margin: 15px 0 0;
+    }
+
+    .video-mg-pres {
+        transition: margin 300ms;
     }
 }

@@ -44,19 +44,26 @@ $(() => {
         target = $(e.target);
         // close the navbar if its displayed and if the click is on a non navbar element.
         if ($('#nav-list').hasClass('show') && target.parents('.navbar').length == 0) {
-            $('.navbar-toggler').click();
+            $('.navbar-toggler').trigger('click');
         }
     });
 
     const videoElem = [
         document.querySelector('.video-mg-pres'),
-        document.querySelector('.WAI-right'),
-        document.querySelector('.WAI-left')
-    ]
-    observer = new IntersectionObserver(videoAnimate, {threshold: [0.3, 0.7]})
-    videoElem.forEach(elem => {
-        observer.observe(elem);
-    });
+        document.querySelector('.WAI-right')
+    ];
+
+    if (window.matchMedia("(max-width: 720px)").matches) {
+        observer = new IntersectionObserver(videoAnimateMobile, {threshold: [0, 0.3, 0.4, 0.5, 0.6, 0.7]});
+        videoElem.forEach(elem => {
+            observer.observe(elem);
+        });
+    } else {
+        observer = new IntersectionObserver(videoAnimate, {threshold: [0.3, 0.4, 0.5, 0.6, 0.7]});
+        videoElem.forEach(elem => {
+            observer.observe(elem);
+        });
+    }
 });
 
 
@@ -64,21 +71,13 @@ function videoAnimate(videoArray) {
     videoArray.forEach(element => {
         if ($(element.target).hasClass('video-mg-pres') && !element.isIntersecting) {
             $(element.target).css('height', '480px');
-            if (window.matchMedia("(max-width: 480px)").matches) {
-                $(element.target).css('width', '480px');
-            } else {
-                $(element.target).css('width', '720px');
-            }
+            $(element.target).css('width', '720px');
             setVideoMargins(element.target, false);
         } else if ($(element.target).hasClass('WAI-right')) {
-            let video = $(element.target).find('.video-mg-pres')
+            let video = $(element.target).find('.video-mg-pres');
             if (element.intersectionRatio > 0.3) {
                 // get basic video dimensions and parent dimensions
                 let ogWidth = 720;
-                if (window.matchMedia("(max-width: 480px)").matches) {
-                    ogWidth = 480;
-                }
-                
                 let ogHeight = 480;
                 let targetWidth = $(element.target).width();
                 let parentHeight = $(element.target).height();
@@ -100,8 +99,24 @@ function videoAnimate(videoArray) {
                 }
             }
             setVideoMargins(video, false);
-        } else if ($(element.target).hasClass('WAI-left')) {
-            setVideoMargins($(element.target).parent().find('.video-mg-pres'), false);
+        }
+    });
+}
+
+function videoAnimateMobile(videoArray) {
+    videoArray.forEach(element => {
+        console.log('ici');
+        if ($(element.target).hasClass('video-mg-pres') && !element.isIntersecting) {
+            let hMargin =  Math.floor(($(element.target).parent().width() - $(element.target).width()) / 2);
+            $(element.target).css('margin', '20px ' + hMargin + 'px');
+        }
+        else if ($(element.target).hasClass('WAI-right') && element.intersectionRatio > 0.1) {
+            console.log('la');
+            let video = $(element.target).find('.video-mg-pres');
+            let vMargin = 20 + element.intersectionRatio*100;
+            $(video).css('margin-top', vMargin + 'px');
+            $(video).css('margin-bottom', vMargin + 'px');
+            setVideoMargins(video, false);
         }
     });
 }
