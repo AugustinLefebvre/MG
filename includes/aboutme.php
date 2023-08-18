@@ -25,7 +25,7 @@
             <?= _('WAI-accroche-3');?>
         </div>
     </div>
-    <div class="video-right WAI-right col-lg-8 col-md-12">
+    <div class="video-right video-holder col-lg-8 col-md-12">
         <iframe
             id="video-WAI"
             class="video-embed video-mg-pres"

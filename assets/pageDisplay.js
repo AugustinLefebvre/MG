@@ -48,10 +48,8 @@ $(() => {
         }
     });
 
-    const videoElem = [
-        document.querySelector('.video-mg-pres'),
-        document.querySelector('.WAI-right')
-    ];
+    const videoElem = document.querySelectorAll('.video-embed');
+    const videoConts = document.querySelectorAll('.video-holder');
 
     if (window.matchMedia("(max-width: 720px)").matches) {
         observer = new IntersectionObserver(videoAnimateMobile, {threshold: [0, 0.3, 0.4, 0.5, 0.6, 0.7]});
@@ -60,7 +58,11 @@ $(() => {
         });
     } else {
         observer = new IntersectionObserver(videoAnimate, {threshold: 0.3});
+
         videoElem.forEach(elem => {
+            observer.observe(elem);
+        });
+        videoConts.forEach(elem => {
             observer.observe(elem);
         });
     }
@@ -69,38 +71,39 @@ $(() => {
 
 function videoAnimate(videoArray) {
     videoArray.forEach(element => {
-        if ($(element.target).hasClass('video-mg-pres') && !element.isIntersecting) {
+        if ($(element.target).hasClass('video-embed') && !element.isIntersecting) {
             $(element.target).css('height', '480px');
             $(element.target).css('width', '720px');
             // wait for the width change animation to finish
             setTimeout(() => {
                 setVideoMargins(element.target, false);
             }, 400);
-        } else if ($(element.target).hasClass('WAI-right')) {
-            let video = $(element.target).find('.video-mg-pres');
+        } else if ($(element.target).hasClass('video-holder')) {
+            let video = $(element.target).find('.video-embed');
             if (element.intersectionRatio > 0.3) {
                 // get basic video dimensions and parent dimensions
-                let ogWidth = 720;
-                let ogHeight = 480;
                 let parentWidth = $(element.target).width();
                 let parentHeight = $(element.target).height();
-                let dynWidth =  Math.floor(parentWidth - 40);
-                let dynHeight =  Math.floor((dynWidth*9/16) - 40);
+                let dynWidth =  Math.floor(parentWidth);
+                let dynHeight =  (dynWidth*9)/16;
                 // unset max width to prevent blocking
                 if ($(video).css('max-width') !== '99%') {
                     $(video).css('max-width', '99%');
                 }
                 // set width to video based on ratio with intersection
-                $(video).css('width', dynWidth+'px');
+                $(video).css('width', dynWidth - 40 +'px');
         
                 // set height to video based on ratio with intersection and if height isn't too big
                 if (parentHeight <= dynHeight) {
                     $(video).css('height', parentHeight+'px');
                 } else {
-                    $(video).css('height', dynHeight+'px');
+                    $(video).css('height', dynHeight - 20 +'px');
                 }
+                vMargin =  (parentHeight - dynHeight) / 2;
                 $(video).css('margin-left', '20px');
                 $(video).css('margin-right', '20px');
+                $(video).css('margin-top', vMargin + 'px');
+                $(video).css('margin-bottom', vMargin + 'px');
             }
         }
     });
@@ -108,14 +111,12 @@ function videoAnimate(videoArray) {
 
 function videoAnimateMobile(videoArray) {
     videoArray.forEach(element => {
-        console.log('ici');
-        if ($(element.target).hasClass('video-mg-pres') && !element.isIntersecting) {
+        if ($(element.target).hasClass('video-embed') && !element.isIntersecting) {
             let hMargin =  Math.floor(($(element.target).parent().width() - $(element.target).width()) / 2);
             $(element.target).css('margin', '20px ' + hMargin + 'px');
         }
-        else if ($(element.target).hasClass('WAI-right') && element.intersectionRatio > 0.1) {
-            console.log('la');
-            let video = $(element.target).find('.video-mg-pres');
+        else if ($(element.target).hasClass('video-holder') && element.intersectionRatio > 0.1) {
+            let video = $(element.target).find('.video-embed');
             let vMargin = 20 + element.intersectionRatio*100;
             $(video).css('margin-top', vMargin + 'px');
             $(video).css('margin-bottom', vMargin + 'px');

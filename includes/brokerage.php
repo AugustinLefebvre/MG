@@ -24,7 +24,7 @@
     </div>
 </div>
 <div id="section-courtage-2" class="other-section row gx-0">
-    <div class="col-lg-6 col-md-12">
+    <div class="col-lg-7 col-md-12 video-holder">
         <iframe
             class="video-embed video-embed-courting"
             src="https://www.youtube.com/embed/2B7MAkquFUo?&origin=https://mglefebvre.com"
@@ -35,7 +35,7 @@
         >
         </iframe>
     </div>
-    <div class="col-lg-6 col-md-12 other-desc row">
+    <div class="col-lg-5 col-md-12 other-desc row">
         <!-- <div class="col-lg-3 col-md-12 exp-section-content o-text">
         </div> -->
         <div class="col-lg-12 col-md-12 exp-section-content">

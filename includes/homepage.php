@@ -1,7 +1,7 @@
 <div class="top-element container" id="top">.
     <div class="fond"></div>
     <div class="contact-info">
-        <a href="#contact"><h4><?= _('Contact Me : ');?></h4></a>
+        <h4><div class="accroche"><?= _('accroche');?></div><?= _('Contact Me : ');?></h4>
         <i class="fa-solid fa-phone"></i>  <a id="mg-contact-info-tel" href="javascript:decryptContact('KzMzNjAyMDg1MTMy', 'tel:')"></a>
         <br/>
         <i class="fa-brands fa-whatsapp"></i>  <a id="mg-contact-info-wa" href="javascript:decryptContact('NDQ3OTIyOTIzMDkwIA', 'https://wa.me/')"></a>

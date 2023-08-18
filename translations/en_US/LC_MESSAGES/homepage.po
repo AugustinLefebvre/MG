@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-08-16 19:20+0200\n"
-"PO-Revision-Date: 2023-08-16 19:54+0200\n"
+"POT-Creation-Date: 2023-08-18 16:34+0200\n"
+"PO-Revision-Date: 2023-08-18 16:40+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -67,7 +67,7 @@ msgstr ""
 "committed start-ups, financial innovations.<br/>\n"
 "My mission: develop everyone's financial culture."
 
-#: includes/aboutme.php:32
+#: includes/aboutme.php:33
 msgid "WAI-video-title"
 msgstr "Marie-Gaëlle Lefebvre presentation"
 
@@ -303,6 +303,10 @@ msgstr ""
 "Marie-Gaëlle Lefebvre is an expert in Brokerage, Wealth Advising and is a "
 "Financial Coach, find all the related services on this website and many ways "
 "to contact her"
+
+#: includes/homepage.php:4
+msgid "accroche"
+msgstr "Make your money work towards your dreams"
 
 #: includes/homepage.php:17
 msgid "Financial Broker"

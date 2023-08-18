@@ -1,7 +1,7 @@
 <div class="col-0 stats-container o-text">   
 </div>
 <div id="section-CGP-1" class="other-section CGP-desc row gx-0">
-    <div class="col-lg-6 col-md-12 CGP-mission-text other-desc">
+    <div class="col-lg-5 col-md-12 CGP-mission-text other-desc">
         <h4 class="CGP-title"><?= _('Wealth Management Advising');?></h4>
         <div class="h-line"></div>
         <div class="col-12">
@@ -17,7 +17,7 @@
             <?= _('I select with you the solutions adapted for your needs among all the offers on the market and at the best conditions');?>
         </div>
     </div>
-    <div class="col-lg-6 col-md-12">
+    <div class="col-lg-7 col-md-12 video-holder">
         <iframe
             class="video-embed video-embed-cgp"
             src="https://www.youtube.com/embed/aAABIQWj5Bk?&origin=https://mglefebvre.com"
