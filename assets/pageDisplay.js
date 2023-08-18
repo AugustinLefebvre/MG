@@ -56,6 +56,9 @@ $(() => {
         videoElem.forEach(elem => {
             observer.observe(elem);
         });
+        videoConts.forEach(elem => {
+            observer.observe(elem);
+        });
     } else {
         observer = new IntersectionObserver(videoAnimate, {threshold: 0.3});
 
@@ -72,12 +75,9 @@ $(() => {
 function videoAnimate(videoArray) {
     videoArray.forEach(element => {
         if ($(element.target).hasClass('video-embed') && !element.isIntersecting) {
-            $(element.target).css('height', '480px');
+            $(element.target).css('height', '405px');
             $(element.target).css('width', '720px');
-            // wait for the width change animation to finish
-            setTimeout(() => {
-                setVideoMargins(element.target, false);
-            }, 400);
+            $(element.target).css('margin', '20px ' + ($(element.target).parent().width()- 720)/2 + 'px');
         } else if ($(element.target).hasClass('video-holder')) {
             let video = $(element.target).find('.video-embed');
             if (element.intersectionRatio > 0.3) {
