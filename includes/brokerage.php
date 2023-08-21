@@ -10,7 +10,7 @@
             <?= _('Specialist in wealth advising and non-residents, I support you in your financing search.');?>
         </div>
         <div class="col-lg-7 col-md-12 illu-courtage-cont">
-            <img class="illu-courtage" src="../assets/carte-logo.png" alt="logo carte financement">
+            <img class="illu-courtage lazy" data-src="../assets/carte-logo.png" alt="logo carte financement">
         </div>
         <div class="exp-section-content col-12">
             <div class="h-line-small"></div>
@@ -26,8 +26,8 @@
 <div id="section-courtage-2" class="other-section row gx-0">
     <div class="col-lg-7 col-md-12 video-holder">
         <iframe
-            class="video-embed video-embed-courting"
-            src="https://www.youtube.com/embed/2B7MAkquFUo?&origin=https://mglefebvre.com"
+            class="video-embed video-embed-courting lazy"
+            data-src="https://www.youtube.com/embed/2B7MAkquFUo?&origin=https://mglefebvre.com"
             title="<?= _('brokerage presentation');?>"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

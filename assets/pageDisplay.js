@@ -69,6 +69,12 @@ $(() => {
             observer.observe(elem);
         });
     }
+
+    const lazyElements = document.querySelectorAll('.lazy');
+    lazyObserver = new IntersectionObserver(lazyLoad, {rootMargin: "500px", threshold: 0});
+    lazyElements.forEach(elem => {
+        lazyObserver.observe(elem);
+    });
 });
 
 
@@ -142,6 +148,15 @@ function setVideoMargins(e, resizeHeight = true) {
         
         $(e).css('margin', vMargins + 'px ' + hMargins + 'px');
     }
-    
-    
+}
+
+function lazyLoad(elementArray) {
+    elementArray.forEach(element => {
+        if (!element.isIntersecting) {
+            return;
+        }
+        if ($(element.target).attr('data-src') !== undefined && $(element.target).attr('src') == undefined) {
+            element.target.src =  $(element.target).attr('data-src');
+        }
+    });
 }

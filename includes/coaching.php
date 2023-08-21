@@ -40,7 +40,7 @@
             <?= _('In a context of increasing complexity and technicality of the economy and of the financial sector, everyone needs information and everyone has a right to it.');?>
         </div>
         <div class="col-lg-6 col-md-12">
-        <?= _('A good mastery of basic knowledge in economic, budgetary and financial matters is a citizen issue and an asset for everyone. It is not a question of making everyone an expert, it is a question of understanding better in order to decide better.');?><span class="o-text"><?= _(' understanding better in order to decide better');?></span>.
+        <?= _('A good mastery of basic knowledge in economic, budgetary and financial matters is a citizen issue and an asset for everyone. It is not a question of making everyone an expert, it is a question of understanding better in order to decide better.');?><br/><span class="o-text c-text"><?= _(' understanding better in order to decide better');?></span>.
         </div>
         <div class="h-line"></div>
         <div class="col-12 problem-soluce">
