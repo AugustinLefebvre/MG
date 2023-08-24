@@ -12,7 +12,7 @@
 <!-- fin certifs  -->
 <!-- début qui suis je  -->
 <div class="video-section row gx-0">
-    <div class="video-left col-lg-5 col-md-12 row d-flex">
+    <div class="video-left WAI-left col-lg-5 col-md-12 row d-flex">
         <div class="col-12">
             <h4 class="who-am-i"><?= _('who-am-i');?></h4>
             <div class="h-line-small"></div>
@@ -25,8 +25,9 @@
             <?= _('WAI-accroche-3');?>
         </div>
     </div>
-    <div class="video-right col-lg-7 col-md-12">
+    <div class="video-right video-holder col-lg-7 col-md-12">
         <iframe
+            id="video-WAI"
             class="video-embed video-mg-pres"
             src="https://www.youtube.com/embed/r6kHiEVDCBc?&origin=https://mglefebvre.com"
             title="<?= _('WAI-video-title');?>"

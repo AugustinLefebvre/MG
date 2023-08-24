@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-08-16 19:20+0200\n"
-"PO-Revision-Date: 2023-08-16 19:54+0200\n"
+"POT-Creation-Date: 2023-08-18 17:39+0200\n"
+"PO-Revision-Date: 2023-08-21 14:52+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -65,9 +65,9 @@ msgid "WAI-accroche-3"
 msgstr ""
 "Globetrotter, passionate about encounters, ecology, revolutionary and "
 "committed start-ups, financial innovations.<br/>\n"
-"My mission: develop everyone's financial culture."
+"My mission: develop everyone's financial literacy."
 
-#: includes/aboutme.php:32
+#: includes/aboutme.php:33
 msgid "WAI-video-title"
 msgstr "Marie-Gaëlle Lefebvre presentation"
 
@@ -161,11 +161,7 @@ msgstr ""
 msgid "Investments, Financial savings, Advising, Tax reduction, Real estate"
 msgstr "Investments, Financial savings, Advising, Tax reduction, Real estate"
 
-#: includes/cgp.php:38
-msgid "My Mission"
-msgstr "My Mission"
-
-#: includes/cgp.php:44
+#: includes/cgp.php:39
 msgid ""
 "Living abroad myself, I intimately know the specifics of the life of non-"
 "residents and expatriates"
@@ -173,7 +169,7 @@ msgstr ""
 "Living abroad myself, I intimately know the specifics of non-residents and "
 "expatriates life."
 
-#: includes/cgp.php:47
+#: includes/cgp.php:42
 msgid ""
 "My job is to take into account your specificities and your personal legal "
 "and tax constraints specific to your expatriate status, to support you in "
@@ -193,25 +189,19 @@ msgstr "Financial Coaching"
 
 #: includes/coaching.php:8
 msgid ""
-"In a context of increasing complexity and technicality of the economy and of "
-"the financial sector, everyone needs information and everyone has a right to "
-"it."
+"My active listening of the problems of my clients and my personal entourage "
+"made me realize that whatever the background:"
 msgstr ""
-"In a context of increasing complexity and technicality of the economy and of "
-"the financial sector, everyone needs informations and everyone has a right "
-"to it."
+"My active listening of the problems of my clients and my personal entourage "
+"made me realise that whatever the background:"
 
 #: includes/coaching.php:11
 msgid ""
-"A good mastery of basic knowledge in economic, budgetary and financial "
-"matters is a citizen issue and an asset for everyone. It is not a question "
-"of making everyone an expert, it is a question of understanding better in "
-"order to decide better."
+"the lack of financial culture and the lack of knowledge of the basics of "
+"money sometimes lead to dangerous decisions on a heritage."
 msgstr ""
-"A good mastery of basic knowledge in economic, budgetary and financial "
-"matters is a citizen issue and an asset for everyone. It is not a question "
-"of making everyone an expert, it is a question of understanding better in "
-"order to decide better."
+"the lack of financial culture and the lack of knowledge of the basics of "
+"money sometimes lead to dangerous decisions on assets."
 
 #: includes/coaching.php:16
 msgid "Scientia potentia"
@@ -239,19 +229,28 @@ msgstr "consider that financial education is necessary at school."
 
 #: includes/coaching.php:40
 msgid ""
-"My active listening of the problems of my clients and my personal entourage "
-"made me realize that whatever the background:"
+"In a context of increasing complexity and technicality of the economy and of "
+"the financial sector, everyone needs information and everyone has a right to "
+"it."
 msgstr ""
-"My active listening of the problems of my clients and my personal entourage "
-"made me realise that whatever the background:"
+"In a context of increasing complexity and technicality of the economy and of "
+"the financial sector, everyone needs informations and everyone has a right "
+"to it."
 
 #: includes/coaching.php:43
 msgid ""
-"the lack of financial culture and the lack of knowledge of the basics of "
-"money sometimes lead to dangerous decisions on a heritage."
+"A good mastery of basic knowledge in economic, budgetary and financial "
+"matters is a citizen issue and an asset for everyone. It is not a question "
+"of making everyone an expert, it is a question of understanding better in "
+"order to decide better."
 msgstr ""
-"the lack of financial culture and the lack of knowledge of the basics of "
-"money sometimes lead to dangerous decisions on assets."
+"A good mastery of basic knowledge in economic, budgetary and financial "
+"matters is a citizen issue and an asset for everyone. It is not a question "
+"of making everyone an expert, it is a question of "
+
+#: includes/coaching.php:43
+msgid " understanding better in order to decide better"
+msgstr " understanding better in order to decide better"
 
 #: includes/coaching.php:47
 msgid ""
@@ -304,6 +303,10 @@ msgstr ""
 "Financial Coach, find all the related services on this website and many ways "
 "to contact her"
 
+#: includes/homepage.php:4
+msgid "accroche"
+msgstr "Make your money work towards your dreams"
+
 #: includes/homepage.php:17
 msgid "Financial Broker"
 msgstr "Financial Broker"
@@ -320,3 +323,6 @@ msgstr "Wealth Management"
 #: includes/reviews.php:63 includes/reviews.php:77 includes/reviews.php:97
 msgid "via LinkedIn"
 msgstr "through LinkedIn"
+
+#~ msgid "My Mission"
+#~ msgstr "My Mission"

@@ -4,11 +4,11 @@
             <?= _('Financial Coaching');?>
         </h4>
         <div class="h-line"></div>
-        <div class="exp-section-content o-text">
-            <?= _('In a context of increasing complexity and technicality of the economy and of the financial sector, everyone needs information and everyone has a right to it.');?>
+        <div class="exp-section-content">
+            <?= _('My active listening of the problems of my clients and my personal entourage made me realize that whatever the background:');?>
         </div>
-        <div class="exp-section-content j-text">
-            <?= _('A good mastery of basic knowledge in economic, budgetary and financial matters is a citizen issue and an asset for everyone. It is not a question of making everyone an expert, it is a question of understanding better in order to decide better.');?>
+        <div class="exp-section-content o-text">
+            <?= _('the lack of financial culture and the lack of knowledge of the basics of money sometimes lead to dangerous decisions on a heritage.');?>
         </div>
         
     </div>
@@ -37,10 +37,10 @@
     </div>
     <div class="col-lg-8 col-md-12 other-desc desc-problem row">
         <div class="col-lg-6 col-md-12">
-        <?= _('My active listening of the problems of my clients and my personal entourage made me realize that whatever the background:');?>
+            <?= _('In a context of increasing complexity and technicality of the economy and of the financial sector, everyone needs information and everyone has a right to it.');?>
         </div>
-        <div class="o-text col-lg-6 col-md-12">
-        <?= _('the lack of financial culture and the lack of knowledge of the basics of money sometimes lead to dangerous decisions on a heritage.');?>
+        <div class="col-lg-6 col-md-12">
+        <?= _('A good mastery of basic knowledge in economic, budgetary and financial matters is a citizen issue and an asset for everyone. It is not a question of making everyone an expert, it is a question of understanding better in order to decide better.');?><br/><span class="o-text c-text"><?= _(' understanding better in order to decide better');?>.</span>
         </div>
         <div class="h-line"></div>
         <div class="col-12 problem-soluce">

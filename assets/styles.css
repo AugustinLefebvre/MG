@@ -8,17 +8,14 @@ a,h4 {
     text-decoration: inherit;
 }
 
-h4 {
+h4, h3 {
     font-size: 28px;
 }
 
-h3 {
-    font-size: 28px;
+.video-embed {
+    transition: all 400ms;
+    transition-property: margin, width;
 }
-/* 
-.colored-title {
-    color: #da5d13;
-} */
 
 .d-flex {
     justify-content: space-evenly;
@@ -39,6 +36,10 @@ h3 {
 
 .j-text {
     text-align: justify;
+}
+
+.c-text {
+    text-align: center;
 }
 
 .h-line {
@@ -162,20 +163,26 @@ h3 {
 }
 
 .contact-info {
+    background-color: rgba(2, 22, 48, 0.7);
+    font-size: 18px;
+    font-weight: bold;
+    height: 100%;
+    min-height: 300px;
+    padding: 130px 40px 0;
     position: absolute;
     right: 0;
     top: 0;
     width: 60%;
-    min-height: 300px;
-    height: 100%;
-    padding: 150px 150px 0;
-    font-size: 18px;
-    font-weight: bold;
-    background-color: rgba(2, 22, 48, 0.7);
 }
 
-.contact-info h4 {
+.contact-info h4, .accroche {
     font-weight: bold;
+    font-size: 24px;
+}
+
+.accroche {
+    font-style: italic;
+    padding-bottom: 50px;
 }
 
 .fa-whatsapp {
@@ -266,7 +273,6 @@ h3 {
 }
 
 .video-mg-pres {
-    margin: 20px 11%;
     height: 480px;
     width:854px;
     background-color: #000;
@@ -350,7 +356,7 @@ h3 {
 }
 
 .CGP-mission-text {
-    text-align: justify;
+    min-height: 480px;
 }
 
 .list-intro {
@@ -438,6 +444,7 @@ h3 {
 
 .scient-top {
     margin-top: 85px;
+    font-style: italic;
 }
 
 .scient-bottom {
@@ -598,7 +605,7 @@ h3 {
     }
 
     .contact-info {
-        width: 60%;
+        width: 70%;
         padding: 150px 20px 0;
     }
 
@@ -669,6 +676,11 @@ h3 {
     
     .contact-info {
         width: 100%;
+        padding: 120px 20px 0;
+    }
+
+    .accroche {
+        padding-bottom: 30px;
     }
 
     .title-header {
@@ -725,6 +737,12 @@ h3 {
 
     .contact-info {
         width: 100%;
+        padding: 90px 20px 0;
+    }
+
+
+    .accroche {
+        padding-bottom: 30px;
     }
 
     .navbar-title {
@@ -768,5 +786,9 @@ h3 {
 
     .review-content {
         margin: 15px 0 0;
+    }
+
+    .j-text {
+        text-align: center;
     }
 }

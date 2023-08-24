@@ -32,6 +32,25 @@
                 
                 En aucun cas, l'internaute ne peut utiliser, imprimer ou reformater le contenu du site à des fins autres que privées ou familiales. Il s'engage à ne pas reproduire, transmettre, vendre ou distribuer le contenu du site sans l'autorisation expresse et préalable de Mme Marie-Gaëlle Lefebvre.</p>
             <br/>
+                Ce Site ne recueille pas de données et toute donnée chargée sur l'appareil naviguant n'est enregistrée que via le comportement par défaut du navigateur utilisé.
+
+                Les informations disponibles sur le site "mglefebvre.com" et ses sous domaines ont été préparées par Marie-Gaëlle Lefebvre, qui a pris toutes les mesures nécessaires pour faire en sorte que ces informations soient fiables, correctes et complètes. Marie-Gaëlle Lefebvre ne garantit ni explicitement ni implicitement l'exactitude, l'exhaustivité ou l'adéquation desdites informations à quelques fins que ce soit.
+
+                Marie-Gaëlle Lefebvre ne peut garantir que les informations trouvées sur le site n'ont pas été altérées suite à des défaillances techniques (déconnexion, interférence de la part de tiers, virus, etc.). <br/>
+
+                Le site "mglefebvre.com" contient des liens hypertextes renvoyant à d'autres sites Internet. Ne pouvant exercer aucun contrôle sur ces sites, Marie-Gaëlle Lefebvre ne peut être tenu pour responsable de la mise à disposition de ces sites et sources externes, et ne peut supporter la responsabilité quant aux contenus créés ou publiés sur ces sites tiers. <br/>
+
+                Marie-Gaëlle Lefebvre ne pourra être tenu responsable de pertes ou de dommages de quelque nature que ce soit, qu'il s'agisse, notamment mais non exclusivement, de dommages directs, indirects ou consécutifs, de nature financier ou commercial, résultant de l'utilisation du site "mglefebvre.com" ou à tout autre site ayant un lien avec le site "mglefebvre.com", à son utilisation, à son exploration ou à son téléchargement. <br/>
+
+                Les informations et simulations contenues sur le site ont un caractère indicatif et n'ont aucune valeur contractuelle et ne doivent en aucun cas être interprétées comme constituant une offre d'achat ou de vente ou des conseils de placement, d'ordre juridique, fiscal, financier ou autre. Les informations ou opinions contenues sur le site sont sans rapport avec les objectifs de placement, la situation financière ou les besoins particuliers de tout récepteur desdites informations. Il vous est conseillé d'obtenir un conseil professionnel spécifique, personnalisé et adéquat avant de prendre toute décision de placement. Les informations ou opinions contenues sur le présent site sont fournies à titre informatif et personnel uniquement et sont susceptibles d'être modifiées sans préavis. <br/>
+
+                La valeur d'investissements dans des titres, produits dérivés, actions ou parts de fonds de placement peut baisser ou augmenter. Il se peut donc que l'investisseur ne récupère pas le montant initialement investi. Les performances passées n'offrent aucune garantie quant aux résultats futurs.
+
+                L'internaute reconnaît que l'utilisation du site est régie par la loi française et relève de la compétence des juges français. <br/>
+
+                Ce site offre aux utilisateurs la possibilité d'envoyer des courriels à Marie-Gaëlle Lefebvre. Ces courriels transitent par Internet, un réseau public sur lequel Marie-Gaëlle Lefebvre n'a aucun contrôle, et sont de ce fait susceptibles d'être interceptés, altérés ou perdus. Marie-Gaëlle Lefebvre décline toute responsabilité à cet égard.
+            <br/>
+            <br/>
             Identité de l'entreprise:
             <br/>
             Lefebvre
