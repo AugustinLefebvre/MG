@@ -51,7 +51,6 @@
             <br/>
             <span class="review-source"><?= _('via LinkedIn');?></span>
         </div>
-        <!-- col6 -->
         <div class="customer-review-container">
             <div class="review-text">
                 <blockquote class="review-content">
@@ -99,6 +98,20 @@
                 </blockquote>
             </div>
             <span class="review-author o-text">Paul S.</span>
+            <br/>
+            <span class="review-source"><?= _('via LinkedIn');?></span>
+        </div>
+        <div class="customer-review-container">
+            <div class="review-text">
+                <blockquote class="review-content">
+                    <a>
+                        Marie-Gaëlle helped me to find the right loan for a project, 
+                        she was extremely professional during the whole process, she managed to find 
+                        the right solution given all the constraints we had. I highly recommend!
+                    </a>
+                </blockquote>
+            </div>
+            <span class="review-author o-text">Pierre S.</span>
             <br/>
             <span class="review-source"><?= _('via LinkedIn');?></span>
         </div>
