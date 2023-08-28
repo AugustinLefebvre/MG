@@ -107,6 +107,23 @@ function openReview($elem) {
     $elem.parents('.review-text').css('height', $elem.parents('.review-text')[0].scrollHeight + 'px');
 }
 
+function buttonDisplayToggle() {
+    let elemLeft = $('#customer-reviews').scrollLeft();
+    let elemRight = elemLeft + $(window).width();
+    let elemWidth = $('#customer-reviews').get(0).scrollWidth;
+    if (elemWidth <= elemRight && $('.review-control-next').is(':visible')) {
+        $('.review-control-next').hide();
+    } else if (elemWidth > elemRight && !$('.review-control-next').is(':visible')) {
+        $('.review-control-next').show();
+    }
+
+    if (elemLeft <= 0 && $('.review-control-prev').is(':visible')) {
+        $('.review-control-prev').hide();
+    } else if (elemLeft > 0 && !$('.review-control-prev').is(':visible')) {
+        $('.review-control-prev').show();
+    }
+}
+
 $(() => {
     // contact info parser
     $('#mg-contact-info').append(atob('bWcubGVmZWJ2cmVAdmlhLWFwLmNvbQ'));
@@ -210,21 +227,10 @@ $(() => {
         }, 300);
     });
 
-    // display buttons in review
+    // display buttons in review when you scroll it
     $('#customer-reviews').on('scroll', () => {
-        let elemLeft = $('#customer-reviews').scrollLeft();
-        let elemRight = elemLeft + $(window).width();
-        let elemWidth = $('#customer-reviews').get(0).scrollWidth;
-        if (elemWidth <= elemRight && $('.review-control-next').is(':visible')) {
-            $('.review-control-next').hide();
-        } else if (elemWidth !== elemLeft && !$('.review-control-next').is(':visible')) {
-            $('.review-control-next').show();
-        }
-
-        if (elemLeft <= 0 && $('.review-control-prev').is(':visible')) {
-            $('.review-control-prev').hide();
-        } else if (elemLeft > 0 && !$('.review-control-prev').is(':visible')) {
-            $('.review-control-prev').show();
-        }
+        buttonDisplayToggle();
     });
+    // display buttons in review on load
+    buttonDisplayToggle();
 });
