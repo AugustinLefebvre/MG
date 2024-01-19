@@ -307,6 +307,15 @@ h4, h3 {
     overflow-x: scroll;
     text-align: center;
     scrollbar-color: rgba(0, 0, 0, 0.3) rgba(2, 22, 48, 0.8);
+    -webkit-scrollbar-color: rgba(0, 0, 0, 0.3) rgba(2, 22, 48, 0.8);
+}
+
+.customer-reviews::-webkit-scrollbar {
+    background-color: rgba(2, 22, 48, 0.8);
+}
+
+.customer-reviews::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .customer-review-container {
