@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-08-18 17:39+0200\n"
-"PO-Revision-Date: 2023-08-21 14:52+0200\n"
+"POT-Creation-Date: 2024-01-19 21:04+0100\n"
+"PO-Revision-Date: 2024-01-19 21:05+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.4.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: .\n"
 
@@ -319,8 +319,13 @@ msgstr "Financial Coach"
 msgid "Wealth Management"
 msgstr "Wealth Management"
 
-#: includes/reviews.php:19 includes/reviews.php:32 includes/reviews.php:47
-#: includes/reviews.php:63 includes/reviews.php:77 includes/reviews.php:97
+#: includes/reviews.php:18 includes/reviews.php:34 includes/reviews.php:50
+msgid "via Google"
+msgstr "through Google"
+
+#: includes/reviews.php:69 includes/reviews.php:82 includes/reviews.php:97
+#: includes/reviews.php:113 includes/reviews.php:127 includes/reviews.php:147
+#: includes/reviews.php:161
 msgid "via LinkedIn"
 msgstr "through LinkedIn"
 

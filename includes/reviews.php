@@ -8,6 +8,51 @@
             <div class="review-text">
                 <blockquote class="review-content">
                     <a>
+                        Great experience working with Marie- Gaëlle, who helped me secure a mortgage in France! 
+                        She was diligent and accompanied me each step of the way. Highly recommend her services!
+                    </a>
+                </blockquote>
+            </div>
+            <span class="review-author o-text">Maxime J.</span>
+            <br/>
+            <span class="review-source"><?= _('via Google');?></span>
+        </div>
+        <div class="customer-review-container">
+            <div class="review-text">
+                <blockquote class="review-content">
+                    <a>
+                    Excellente qualité de service dans le cadre d'un dossier de prêt pour un achat immobilier. 
+                    Ma conseillère Marie-Gaelle Lefebvre a fait preuve d'excellentes qualités d'écoute et de patience, 
+                    s'est montrée extrêmement impliquée, efficace, proactive et agile du montage du dossier au déblocage des fonds, 
+                    en réussissant à obtenir un bon deal avec plusieurs banques dans un contexte compliqué d'inflation et de hausse des taux. 
+                    Je recontacterai Marie-Gaelle et « Carte financement » sans hésiter pour mon prochain projet ! Bonne continuation !
+                    </a>
+                </blockquote>
+            </div>
+            <span class="review-author o-text">Mickaël P.</span>
+            <br/>
+            <span class="review-source"><?= _('via Google');?></span>
+        </div>
+        <div class="customer-review-container">
+            <div class="review-text">
+                <blockquote class="review-content">
+                    <a>
+                        Mrs Lefebvre is personable and tenacious. As an American,
+                        my circumstances created some unique hurdles to obtain a loan 
+                        in France. She pushed through and remained hopeful the whole time 
+                        finding me a loan with a competitive rate. I definitely recommend 
+                        working with her.
+                    </a>
+                </blockquote>
+            </div>
+            <span class="review-author o-text">James G.</span>
+            <br/>
+            <span class="review-source"><?= _('via Google');?></span>
+        </div>
+        <div class="customer-review-container">
+            <div class="review-text">
+                <blockquote class="review-content">
+                    <a>
                         Je tiens à recommander vivement Marie-Gaëlle 
                         pour ses compétences en gestion de patrimoine. En tant que freelance, 
                         elle m'a apporté une assistance que je ne trouvais pas ailleurs, 
