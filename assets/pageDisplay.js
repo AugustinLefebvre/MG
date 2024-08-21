@@ -126,10 +126,10 @@ function buttonDisplayToggle() {
 
 $(() => {
     // contact info parser
-    $('#mg-contact-info').append(atob('bWcubGVmZWJ2cmVAdmlhLWFwLmNvbQ'));
+    $('#mg-contact-info').append(atob('bWcubGVmZWJ2cmVAb2ctcGF0cmltb2luZS5jb20='));
     $('#mg-contact-info-wa').append(atob('KzQ0IDcgOTIyIDkyMyAwOTA'));
     $('#mg-contact-info-tel').append(atob('KzMzIDYgMDIgMDggNTEgMzI'));
-    $('#mg-footer-info').append(atob('bWcubGVmZWJ2cmVAdmlhLWFwLmNvbQ'));
+    $('#mg-footer-info').append(atob('bWcubGVmZWJ2cmVAb2ctcGF0cmltb2luZS5jb20='));
     $('#mg-footer-info-wa1').append(atob('KzQ0IDcgOTIyIDkyMyAwOTA'));
     $('#mg-footer-info-wa2').append(atob('KzQ0IDcgOTIyIDkyMyAwOTA'));
     $('#mg-footer-info-tel').append(atob('KzMzIDYgMDIgMDggNTEgMzI'));

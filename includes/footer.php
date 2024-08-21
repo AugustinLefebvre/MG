@@ -16,7 +16,7 @@
                 </a>
             </li>
             <li>
-                <a id="mg-footer-info" href="javascript:decryptContact('bWcubGVmZWJ2cmVAdmlhLWFwLmNvbQ', 'mailto:')"><i class="fa-solid fa-at"></i>
+                <a id="mg-footer-info" href="javascript:decryptContact('bWcubGVmZWJ2cmVAb2ctcGF0cmltb2luZS5jb20=', 'mailto:')"><i class="fa-solid fa-at"></i>
                     <?= _('Email:');?>
                 </a>
             </li>

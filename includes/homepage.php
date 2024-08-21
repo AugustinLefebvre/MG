@@ -6,7 +6,7 @@
         <br/>
         <i class="fa-brands fa-whatsapp"></i>  <a id="mg-contact-info-wa" href="javascript:decryptContact('NDQ3OTIyOTIzMDkwIA', 'https://wa.me/')"></a>
         <br/>
-        <i class="fa-solid fa-at"></i>  <a id="mg-contact-info" href="javascript:decryptContact('bWcubGVmZWJ2cmVAdmlhLWFwLmNvbQ', 'mailto:')"></a>
+        <i class="fa-solid fa-at"></i>  <a id="mg-contact-info" href="javascript:decryptContact('bWcubGVmZWJ2cmVAb2ctcGF0cmltb2luZS5jb20=', 'mailto:')"></a>
     </div>    
 
     <div class="button-section-container row">
