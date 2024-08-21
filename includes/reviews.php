@@ -160,6 +160,20 @@
             <br/>
             <span class="review-source"><?= _('via LinkedIn');?></span>
         </div>
+        <div class="customer-review-container">
+            <div class="review-text">
+                <blockquote class="review-content">
+                    <a>
+                        Marie-Gaëlle a été pour nous une infaillible partenaire pour mener à bien notre achat comme non-résidents. 
+                        Je retiens avant tout sa disponibilité, une grande transparence à toutes les étapes, 
+                        de la bienveillance et tout plein d'échanges efficaces et agréables.
+                    </a>
+                </blockquote>
+            </div>
+            <span class="review-author o-text">Amélie V.</span>
+            <br/>
+            <span class="review-source"><?= _('via Google');?></span>
+        </div>
     </div>
     <button class="review-control-next" type="button">
         <span class="review-control-next-icon" aria-hidden="true"></span>
