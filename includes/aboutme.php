@@ -29,7 +29,7 @@
         <iframe
             id="video-WAI"
             class="video-embed video-mg-pres"
-            src="https://www.youtube.com/embed/r6kHiEVDCBc?&origin=https://mglefebvre.com"
+            src="https://www.youtube.com/embed/v-B2083JDN0?&origin=https://mglefebvre.com"
             title="<?= _('WAI-video-title');?>"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
